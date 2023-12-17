@@ -74,6 +74,8 @@ a {
     box-shadow: none !important;
 }
 
+
+
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom:active,
@@ -94,9 +96,10 @@ a {
 }
 
 .section-title {
-    font-size: 30px;
+    font-size: 32px;
     color: #000;
     text-transform: capitalize;
+    font-weight: bold;
 }
 
 .title-icon {
@@ -266,7 +269,6 @@ a {
     color: #FFFFFF;
     text-align: center;
     font-size: 30px;
-    
 }
 
 /*===========================
@@ -340,7 +342,20 @@ a {
 .precio {
     font-size: 50px;
 }
+.price-box-container {
+    width: auto; 
+    height: 580px; 
+    margin: 0 10px 20px 10px;
+    position: relative;
+      
+}
 
+
+/*.full-width-background {
+    position:absolute;
+    width: 80%;
+    background:rgba(99, 98, 184, .7);
+}*/
 
 
 /*===========================
@@ -479,7 +494,7 @@ textarea.form-control {
 }
 
 .copyright-desc {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .social li a {
@@ -523,6 +538,13 @@ textarea.form-control {
     color: #0dba26;
     font-size: 22px;
 }
+
+
+btm .btn-quines-somos h3 {
+    color: #0dba26;
+    font-size: 22px;
+}
+
 
 
 /*=====================================
@@ -590,6 +612,7 @@ textarea.form-control {
     .footer-alt .float-right {
         float: none !important;
         text-align: center;
+        background-color: #374D67;
     }
     .home-title {
         font-size: 30px;
@@ -606,7 +629,9 @@ textarea.form-control {
         font-size: 16px;
     }
     .section-title {
-        font-size: 24px;
+        font-size: 32px;
+        font-weight: bold;
+
     }
     .carousel-control-next,
     .carousel-control-prev {
@@ -618,12 +643,7 @@ textarea.form-control {
     }
 }
 
-.price-box-container {
-    width: auto; 
-    height: 580px; 
-    margin: 0 10px 20px 10px;
-      
-}
+
 
 .price-box-container-service {
     width: auto; /* Establece el ancho deseado */
@@ -658,7 +678,34 @@ textarea.form-control {
     display: flex;
     justify-content: center;
     justify-items: center;
+    width: 200px;
+    margin: 0% auto;
 }
+
+.btn-quines-somos2 {
+    background-color: #3D45C0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 230px;
+    height: 50px;
+    align-items: center;
+   
+}
+
+.container-txt {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.container-img {
+   width: 200px;
+   margin: 0 auto;
+}
+
 
 .title-quines-somos {
     font-size: 30px;

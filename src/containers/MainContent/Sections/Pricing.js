@@ -18,7 +18,8 @@ class Pricing extends Component{
                         </div>
                         <div className="row mt-5">
                             <div className="col-lg-4">
-                                <div className="price-box p-5 bg-white  mt-4 price-box-container">
+                            
+                            <div className="price-box p-5 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)' }}>
                                     
                                     <div className="plan-name mt-4">
                                         <h6>Plan Panorama</h6>
@@ -33,13 +34,13 @@ class Pricing extends Component{
                                     <div className="mt-3">
                                         <Link to="#" className="text-info underline-left">Más Información</Link>
                                     </div>
-                                    <div className="mt-5 mb-20">
-                                        <Link to="#" className="btn btn-custom btn-rounded">Regístrate Gratis</Link>
-                                    </div>
+                                    <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
+                                    <Link to="#" className="btn btn-custom btn-rounded" style={{ marginTop: '200px', marginBottom: '20px' }}>Regístrate Gratis</Link>
+                                </div>
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <div className="price-box p-5 bg-white text-left mt-4 price-box-container">
+                                <div className="price-box p-5 bg-white text-left mt-4 price-box-container " style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)' }}>
                                     
                                     <div className="plan-name mt-4">
                                         <h6>Plan Horizonte</h6>
@@ -58,10 +59,10 @@ class Pricing extends Component{
                                     <div className="mt-3">
                                         <Link to="#" className="text-info underline-left">Más Información</Link>
                                     </div>
-                                    <div className="mt-5">
-                                        <Link to="#" className="btn btn-custom btn-rounded">Regístrate</Link>
-                                    </div>
+                                    <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
+                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' >Regístrate</a>
 
+                                    </div>
                                     <div className="mt-5 price-box-container-extra text-center">
                                         <p>Ideal para:</p>
                                         <p>Agente Inmobiliario o Inmobiliaria</p>
@@ -70,7 +71,7 @@ class Pricing extends Component{
                             </div>
                             
                             <div className="col-lg-4">
-                                <div className="price-box p-5 bg-white  mt-4 price-box-container">
+                                <div className="price-box p-5 bg-white  mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)' }}>
                                     <div className="plan-name mt-4">
                                         <h6>Plan Vision</h6>
                                         <p>Desde:</p>
@@ -87,11 +88,11 @@ class Pricing extends Component{
                                     <div className="mt-3">
                                         <Link to="#" className="text-info underline-left">Más Información</Link>
                                     </div>
-                                    <div className="mt-5">
-                                        <Link to="#" className="btn btn-custom btn-rounded">Regístrate</Link>
+                                    <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
+                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' >Regístrate</a>
                                     </div>
 
-                                    <div className="mt-5 price-box-container-extra text-center">
+                                    <div className="mt-5 price-box-container-extra text-center ">
                                         <p>Ideal para:</p>
                                         <p>Constructor / Desarrollador</p>
                                     </div>                               
@@ -99,13 +100,13 @@ class Pricing extends Component{
                             </div>
 
                             <div className="col-lg-4">
-                                <div className="price-box p-5 bg-white text-left mt-4 ">
+                                <div className="price-box p-5 bg-white text-left mt-4 " style={{height:800, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
                                     
                                     <div className="plan-name mt-4">
                                         <h6>Factibilidad Financiera</h6>
                                         <p>Promocion:</p>
                                         <p>
-                                            <span className='nombre-pricing' style={{ fontWeight: 'bold', fontSize: '35px' }}>$24,999.00</span> <span style={{ fontSize: '20px' }}>   al mes</span>
+                                            <span className='nombre-pricing' style={{ fontWeight: 'bold', fontSize: '45px' }}>$24,999</span> <span style={{ fontSize: '20px'}}>   al mes</span>
                                         </p>
                                         <p>Precio Regular:</p>
                                         <p>
@@ -127,25 +128,25 @@ class Pricing extends Component{
                                     <div className="mt-3">
                                         <Link to="#" className="text-info underline-left">Más Información</Link>
                                     </div>
-                                    <div className="mt-5">
-                                        <Link to="#" className="btn btn-custom btn-rounded">Regístrate</Link>
+                                    <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
+                                        <Link to="#" className="btn btn-custom btn-rounded" style={{ marginTop: '20px', marginBottom: '20px' }}>Empieza ahora</Link>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-lg-4">
-                                <div className="price-box p-5 bg-white text-justify mt-4 ">
+                                <div className="price-box p-5 bg-white text-justify mt-4 " style={{height:800, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
                                     
-                                    <div className="plan-name mt-4">
+                                    <div className="plan-name mt-4" >
                                         <h6>Optimización del Producto</h6>
                                         <p>Promocion:</p>
                                         <p>
-                                            <span className='nombre-pricing' style={{ fontWeight: 'bold', fontSize: '35px' }}>$24,999.00</span><span style={{ fontSize: '20px' }}>   al mes</span>
+                                            <span className='nombre-pricing' style={{ fontWeight: 'bold', fontSize: '45px' }}>$24,999</span><span style={{ fontSize: '20px' }}> al mes</span>
                                         </p>
                                         <p>Precio Regular:</p>
                                         <p>
                                         <span style={{ position: 'relative', fontSize: '40px' }}>
-                                        <span style={{ fontWeight: 'bold' }}>$49,999</span>
+                                        <span style={{ fontWeight: 'bold'}}>$49,999</span>
                                         <span style={{ position: 'absolute', top: '26px', left: 0, width: '100%', borderBottom: '2px solid black' }}></span>
                                         </span>
                                         <span style={{ fontSize: '20px' }}> al mes</span>
@@ -166,13 +167,12 @@ class Pricing extends Component{
                                     <div className="mt-3">
                                         <Link to="#" className="text-info underline-left">Más Información</Link>
                                     </div>
-                                    <div className="mt-5">
-                                        <Link to="#" className="btn btn-custom btn-rounded">Regístrate</Link>
+                                    <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
+                                        <Link to="#" className="btn btn-custom btn-rounded" style={{ marginTop: '40px', marginBottom: '20px' }}>Empieza ahora</Link>
                                     </div>
 
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>

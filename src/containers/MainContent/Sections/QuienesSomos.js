@@ -7,7 +7,7 @@ class QuienesSomos extends Component{
     render(){
         return(
             <AUX>
-            <section className="section" id="features">
+            <section className="section" id="quienessomos">
                 <div className="container">
                     
                     <div className="row vertical-content">
@@ -17,6 +17,11 @@ class QuienesSomos extends Component{
                                     <h3 className='title-quines-somos'>¿Quiénes Somos?</h3>
                                         <p className="pt-2 txt-quines-somos text-left">DatAlpine es un producto de TESEO DATA LAB, un equipo global de científicos de datos. Con más de 18 proyectos en bienes raíces y una trayectoria en México, Japón, EE. UU., Canadá, Suiza y Alemania. Expertos comprometidos en transformar datos en estrategias efectivas.</p>
                                     </div>
+                                    <div className="features-desc">
+                                        
+                                    <a href="https://teseodata.com/" className="btn-quines-somos2">Conoce nuestro sitio web</a>
+                                    </div>
+
                             </div>
                         </div>
                         <div className="col-md-6 pt-4">
@@ -25,7 +30,11 @@ class QuienesSomos extends Component{
                     </div>  
                 </div>
                 
-                
+                <div className='container-quines-somos'>
+                    <img className='container-img' src="images/Logo.png"  />
+                    <p className='container-txt'>Tu socio en decisiones inmobiliarias</p>
+                    <button className='btn-quines-somos '>Contáctanos</button>
+                </div>
 
             </section>
         </AUX>

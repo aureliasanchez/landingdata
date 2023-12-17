@@ -6,6 +6,7 @@ import Pricing from '../Sections/Pricing';
 import Client from '../Sections/Client';
 import Faq from '../Sections/Faq';
 import QuienesSomos from '../Sections/QuienesSomos';
+import Contact from '..//Sections/Contact';
 import { Link } from 'react-router-dom';
 import AUX from '../../../hoc/Aux_';
 import { connect } from 'react-redux';
@@ -46,7 +47,8 @@ class HomeOne extends Component{
                             <h1 className="mt-5 pt-5 home-title">Plataforma #1 líder en el mercado</h1>
                             <p className="home-subtitle mx-auto pt-2">Transformando datos en estrategias inmobiliarias.</p>
                             <div className="mt-5">
-                                <Link to="/src/containers/Sections/Features.js" className="btn btn-custom">Empieza Ahora</Link>
+                                <a href="https://datalpine.mx/login.php" className="btn btn-custom">Empieza ahora</a>
+
                             </div>
                            
                            
@@ -67,7 +69,7 @@ class HomeOne extends Component{
             <Client />
             <Faq />
             <QuienesSomos />
-
+            <Contact />
         </AUX>
         );
     }
