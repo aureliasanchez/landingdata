@@ -19,7 +19,7 @@ class Pricing extends Component{
                         <div className="row mt-5">
                             <div className="col-lg-4">
                             
-                            <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)' }}>
+                            <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
                                     
                                     <div className="plan-name mt-4" style={{paddingBottom: '42px' }}>
                                         <h6 style={{paddingBottom: '25px' }}>Plan Panorama</h6>
@@ -41,7 +41,7 @@ class Pricing extends Component{
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <div className="price-box px-4 pt-4 bg-white text-left mt-4 price-box-container " style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)' }}>
+                                <div className="price-box px-4 pt-4 bg-white text-left mt-4 price-box-container " style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
                                     
                                     <div className="plan-name mt-4">
                                         <h6 style={{paddingBottom: '20px' }}>Plan Horizonte</h6>
@@ -67,7 +67,7 @@ class Pricing extends Component{
                             </div>
                             
                             <div className="col-lg-4">
-                                <div className="price-box px-4 pt-4 bg-white  mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)' }}>
+                                <div className="price-box px-4 pt-4 bg-white  mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
                                     <div className="plan-name mt-4">
                                         <h6 style={{paddingBottom: '20px'}}>Plan Vision</h6>
                                         <p style={{ marginBottom: '0' }}>Desde:</p>
@@ -91,10 +91,10 @@ class Pricing extends Component{
                             </div>
 
                             <div className="col-lg-4">
-                                <div className="price-box px-4 pt-4 bg-white text-left mt-4 price-box-container" style={{boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
+                                <div className="price-box px-4 pt-4 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
                                     
                                     <div className="plan-name mt-4">
-                                        <h6 style={{paddingBottom: '20px' }}>Factibilidad Financiera</h6>
+                                        <h6 style={{paddingBottom: '20px', lineHeight:'1.5em' }}>Factibilidad <br></br> Financiera</h6>
                                         
                                     </div>
 
@@ -110,7 +110,7 @@ class Pricing extends Component{
                                     </div> */}
 
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <Link to="contacto@datalpine.mx" className="btn btn-custom btn-rounded" style={{ marginTop: '80px', marginBottom: '20px' }}>Contacto con ventas</Link>
+                                        <Link to="contacto@datalpine.mx" className="btn btn-custom btn-rounded" style={{ marginTop: '18px', marginBottom: '20px' }}>Contacto con ventas</Link>
                             
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@ class Pricing extends Component{
                             </div>
 
                             <div className="col-lg-4">
-                                <div className="price-box px-4 pt-4 bg-white text-justify mt-4 price-box-container" style={{boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
+                                <div className="price-box px-4 pt-4 bg-white text-justify mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
                                     
                                     <div className="plan-name mt-4" >
                                         <h6 style={{paddingBottom: '20px', lineHeight:'1.5em' }}>Optimización del Producto</h6>
@@ -141,7 +141,7 @@ class Pricing extends Component{
 
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
                                     
-                                        <Link to="contacto@datalpine.mx" className="btn btn-custom btn-rounded" style={{ marginTop: '38px', marginBottom: '20px' }}>Contacto con ventas</Link>
+                                        <Link to="contacto@datalpine.mx" className="btn btn-custom btn-rounded" style={{ marginTop: '18px', marginBottom: '20px' }}>Contacto con ventas</Link>
                                     </div>
 
                                 </div>
