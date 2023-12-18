@@ -37,15 +37,17 @@ class Header extends Component{
                         
                         <ul className="navigation-menu menu-right">
                             <li className="mobile-none">
-                            <a href="#quienessomos">Quienes somos</a>
+                            <a href="#quienessomos">Quiénes somos</a>
                             </li>
                             <li className="mobile-none">
                             <a href="#pricing">Planes</a>
                             </li>
                             <li className="mobile-none">
-                            <a href="https://datalpine.mx/login.php" target="_blank" rel="noopener  "  /*class="styled-button"*/>
+                                <div className='button-nav'>
+                                <a href="https://datalpine.mx/login.php" target="_blank" rel="noopener" class="styled-button">
                                 Log In
                             </a>
+                                </div>
                             </li>
                         </ul>
                     </div>

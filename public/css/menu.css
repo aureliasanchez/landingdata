@@ -63,7 +63,7 @@
 #topnav .navigation-menu > li > a {
     display: block;
     font-size: 15px;
-    color: #B9B9B9;
+    color: #717171;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     line-height: 20px;
@@ -279,6 +279,25 @@
 .sticky.darkheader {
     top: 0px !important;
 }
+
+.styled-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D45C0;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.styled-button:hover {
+    color: #fff;
+}
+
+.button-nav {
+    padding-top: 12px;
+}
+
 @media (min-width: 992px) {
     #topnav .navigation-menu > li > a {
         padding-top: 25px;
@@ -356,7 +375,7 @@
         display: block !important;
     }
     #topnav .navigation-menu > li:hover > a {
-        color: #fff;
+        color: #3D45C0;
     }
     #topnav .navigation-menu > li:hover > .menu-arrow {
         border-color: #fff;
