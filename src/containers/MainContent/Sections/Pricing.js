@@ -71,7 +71,7 @@ class Pricing extends Component{
                                         <h6>Plan Vision</h6>
                                         <p>Desde:</p>
                                         <p>
-                                            <span style={{ fontWeight: 'bold', fontSize: '40px' }}>$1,999</span>
+                                            <span style={{ fontWeight: 'bold', fontSize: '40px' }}>$1,199</span>
                                             <span style={{ fontSize: '20px' }}>   al mes</span>
                                         </p>
                                     </div>
