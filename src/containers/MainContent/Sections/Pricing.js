@@ -60,12 +60,7 @@ class Pricing extends Component{
                                         <Link to="#" className="text-info underline-left">Más Información</Link>
                                     </div>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' >Regístrate</a>
-
-                                    </div>
-                                    <div className="mt-5 price-box-container-extra text-center">
-                                        <p>Ideal para:</p>
-                                        <p>Agente Inmobiliario o Inmobiliaria</p>
+                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '110px', marginBottom: '10px' }}>Compra ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -89,13 +84,8 @@ class Pricing extends Component{
                                         <Link to="#" className="text-info underline-left">Más Información</Link>
                                     </div>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' >Regístrate</a>
+                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '90px', marginBottom: '10px' }}>Compra ahora</a>
                                     </div>
-
-                                    <div className="mt-5 price-box-container-extra text-center ">
-                                        <p>Ideal para:</p>
-                                        <p>Constructor / Desarrollador</p>
-                                    </div>                               
                                  </div>
                             </div>
 
