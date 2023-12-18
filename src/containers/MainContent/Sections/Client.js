@@ -6,7 +6,7 @@ class Client extends Component{
     render(){
         return(
             <AUX>
-                <section className="section bg-gray" id="client">
+                <section className="section bg-gray" id="client" style={{paddingTop: '150px', paddingBottom: '200px'}}>
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-md-8">

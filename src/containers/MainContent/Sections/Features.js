@@ -7,12 +7,12 @@ class Features extends Component{
     render(){
         return(
             <AUX>
-            <section className="section" id="features">
+            <section className="section" id="features" style={{paddingTop: '200px', paddingBottom: '200px'}}>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-8 text-center">
                             
-                            <h3 className="section-title pt-5">¿Qué es DatAlpine?</h3>
+                            <h2 className="section-title pb-5" style={{fontSize: '40px'}}>¿Qué es DatAlpine?</h2>
 
                         </div>
                     </div>

@@ -7,7 +7,7 @@ class Pricing extends Component{
     render(){
         return(
             <AUX>
-                <section className="section bg-light" id="pricing">
+                <section className="section bg-light" id="pricing" style={{paddingTop: '150px', paddingBottom: '200px'}}>
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-md-8">
