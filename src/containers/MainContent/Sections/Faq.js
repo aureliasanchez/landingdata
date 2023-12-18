@@ -7,7 +7,7 @@ class Faq extends Component{
         return(
             <AUX>
                 <section className="section bg-light" id="faq">
-                    <div className="container " style={{height:800, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
+                    <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-md-8">
                                 <div className="text-center">
@@ -16,7 +16,7 @@ class Faq extends Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="row justify-content-center mt-5 price-box p-5 bg-white text-center mt-1">
+                        <div className="row justify-content-center mt-5 price-box p-5 bg-white text-center mt-1" style={{height:800, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
                             <div className="col-lg-6 faq-side"> 
                                 <div className="faq pt-5"> 
                                     <p className="text-uppercase user-title mb-1">Recomendaciones Estratégicas</p>
