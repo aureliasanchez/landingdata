@@ -29,7 +29,7 @@ class Contact extends Component{
                                     <div className="col-lg-4">
                                         <div className="single-contact text-center text-white"> 
                                             <i className="mdi mdi-map-marker"></i>
-                                            <h4>Drección</h4>
+                                            <h4>Dirección</h4>
                                             <p>Pachuca, Hgo México.</p>
                                         </div>
                                     </div>
