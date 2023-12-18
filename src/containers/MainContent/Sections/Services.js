@@ -50,7 +50,7 @@ class Services extends Component{
                                         <i className="mdi mdi-monitor text-center"></i>
                                     </div>
                                     <div className="service-desc pt-4 price-box-container-service text-left">
-                                        <h5>Histórico y Tendencias</h5>
+                                        <h5>Características de las Propiedades:</h5>
                                         <ul>
                                             <li>Comprensión del mercado </li>
                                             <li>Promedio de habitaciones<br />(Baños, Recámaras y Estacionamientos) </li>
