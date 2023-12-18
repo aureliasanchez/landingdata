@@ -16,6 +16,8 @@ class QuienesSomos extends Component{
                                     <div className="features-desc">
                                     <h3 className='title-quines-somos'>¿Quiénes Somos?</h3>
                                         <p className="pt-2 txt-quines-somos text-left">DatAlpine es un producto de TESEO DATA LAB, un equipo global de científicos de datos. Con más de 18 proyectos en bienes raíces y una trayectoria en México, Japón, EE. UU., Canadá, Suiza y Alemania. Expertos comprometidos en transformar datos en estrategias efectivas.</p>
+                                        <p className="pt-2 txt-quines-somos text-left">Como desarrolladores de software y expertos en análisis de datos e inteligencia artificial en la industria estamos comprometidos con proporcionar soluciones precisas y efectivas que generen resultados concretos para nuestros clientes.</p>
+
                                     </div>
                                     <div className="features-desc">
                                         
@@ -33,7 +35,7 @@ class QuienesSomos extends Component{
                 <div className='container-quines-somos'>
                     <img className='container-img' src="images/Logo.png"  />
                     <p className='container-txt'>Tu socio en decisiones inmobiliarias</p>
-                    <button className='btn-quines-somos '>Contáctanos</button>
+                    <a href="#contact" className='btn-quines-somos'>Contáctanos</a>
                 </div>
 
             </section>

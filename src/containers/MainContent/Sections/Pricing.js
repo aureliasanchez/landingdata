@@ -52,7 +52,7 @@ class Pricing extends Component{
                                     </div>
 
                                     <ul>
-                                        <li>Incluye <strong>3 sesiones</strong> de consultoría</li>
+                                        <li>Incluye <strong>1 sesion</strong> de consultoría</li>
                                         <li>Distribución de créditos</li>
                                     </ul>
                                     
@@ -82,7 +82,7 @@ class Pricing extends Component{
                                     </div>
                                     <ul>
                                         <li>Personalización total</li>
-                                        <li>Incluye <strong>1 sesion</strong> de consultoría mensual</li>
+                                        <li>Incluye <strong>1 sesion</strong> de consultoría mensual + 1 informe inmobiliario</li>
                                         
                                     </ul>
                                     <div className="mt-3">
@@ -100,22 +100,11 @@ class Pricing extends Component{
                             </div>
 
                             <div className="col-lg-4">
-                                <div className="price-box p-5 bg-white text-left mt-4 " style={{height:800, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
+                                <div className="price-box p-5 bg-white text-left mt-4 " style={{height:600, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
                                     
                                     <div className="plan-name mt-4">
                                         <h6>Factibilidad Financiera</h6>
-                                        <p>Promocion:</p>
-                                        <p>
-                                            <span className='nombre-pricing' style={{ fontWeight: 'bold', fontSize: '45px' }}>$24,999</span> <span style={{ fontSize: '20px'}}>   al mes</span>
-                                        </p>
-                                        <p>Precio Regular:</p>
-                                        <p>
-                                        <span style={{ position: 'relative', fontSize: '40px' }}>
-                                        <span style={{ fontWeight: 'bold' }}>$49,999</span>
-                                        <span style={{ position: 'absolute', top: '26px', left: 0, width: '100%', borderBottom: '2px solid black' }}></span>
-                                        </span>
-                                        <span style={{ fontSize: '20px' }}> al mes</span>
-                                        </p>
+                                        
                                     </div>
 
                                     <ul>
@@ -129,29 +118,18 @@ class Pricing extends Component{
                                         <Link to="#" className="text-info underline-left">Más Información</Link>
                                     </div>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <Link to="#" className="btn btn-custom btn-rounded" style={{ marginTop: '20px', marginBottom: '20px' }}>Empieza ahora</Link>
+                                        <Link to="contacto@datalpine.mx" className="btn btn-custom btn-rounded" style={{ marginTop: '20px', marginBottom: '20px' }}>Contacto con ventas</Link>
+                            
                                     </div>
                                 </div>
+
                             </div>
 
                             <div className="col-lg-4">
-                                <div className="price-box p-5 bg-white text-justify mt-4 " style={{height:800, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
+                                <div className="price-box p-5 bg-white text-justify mt-4 " style={{height:600, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
                                     
                                     <div className="plan-name mt-4" >
                                         <h6>Optimización del Producto</h6>
-                                        <p>Promocion:</p>
-                                        <p>
-                                            <span className='nombre-pricing' style={{ fontWeight: 'bold', fontSize: '45px' }}>$24,999</span><span style={{ fontSize: '20px' }}> al mes</span>
-                                        </p>
-                                        <p>Precio Regular:</p>
-                                        <p>
-                                        <span style={{ position: 'relative', fontSize: '40px' }}>
-                                        <span style={{ fontWeight: 'bold'}}>$49,999</span>
-                                        <span style={{ position: 'absolute', top: '26px', left: 0, width: '100%', borderBottom: '2px solid black' }}></span>
-                                        </span>
-                                        <span style={{ fontSize: '20px' }}> al mes</span>
-                                        </p>
-
                                         
                                     </div>
                                     <ul>
@@ -166,9 +144,13 @@ class Pricing extends Component{
                                     
                                     <div className="mt-3">
                                         <Link to="#" className="text-info underline-left">Más Información</Link>
+                                        
                                     </div>
+                                    
+
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <Link to="#" className="btn btn-custom btn-rounded" style={{ marginTop: '40px', marginBottom: '20px' }}>Empieza ahora</Link>
+                                    
+                                        <Link to="contacto@datalpine.mx" className="btn btn-custom btn-rounded" style={{ marginTop: '40px', marginBottom: '20px' }}>Contacto con ventas</Link>
                                     </div>
 
                                 </div>

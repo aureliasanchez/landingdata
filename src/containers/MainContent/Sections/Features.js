@@ -26,7 +26,6 @@ class Features extends Component{
                                 <div className="features-desc">
                                     <h5>La evolución del análisis inmobiliario en México</h5>
                                     <p className="pt-2">Una plataforma digital líder respaldada por modelos de datos econométricos avanzados. Descubre un nuevo nivel de claridad y precisión en la información inmobiliaria.</p>
-                                    <a href="#services" className="text-custom features-more">Mas información</a> <i className="mdi mdi-arrow-right"></i>
 
                                 </div>
                             </div>

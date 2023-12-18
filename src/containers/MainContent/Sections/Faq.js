@@ -44,15 +44,10 @@ class Faq extends Component{
                                     </div>
                                 </div>
                                 
+                                
                             </div>
 
                             <div className="col-lg-6 faq-side "> 
-                                <div className="faq pt-5">
-                                    <p className="text-uppercase user-title mb-1">Tecnologías Avanzadas</p>
-                                    <div className="faq-ans">
-                                        <p className="faq-sub-title text-muted pt-2">Utilizamos IA y Big Data.</p>
-                                    </div>
-                                </div> 
                                 <div className="faq pt-5">
                                     <p className="text-uppercase user-title mb-1">Enfoque Analítico</p>
                                     <div className="faq-ans">
@@ -60,9 +55,21 @@ class Faq extends Component{
                                     </div>
                                 </div>
                                 <div className="faq pt-5">
-                                    <p className="text-uppercase user-title mb-1">for advertiser</p>
+                                    <p className="text-uppercase user-title mb-1">Tecnologías Avanzadas</p>
                                     <div className="faq-ans">
-                                        <p className="faq-sub-title text-muted pt-2">Mediante algoritmos avanzados.</p>
+                                        <p className="faq-sub-title text-muted pt-2">Utilizamos IA y Big Data.</p>
+                                    </div>
+                                </div>
+                                <div className="faq pt-5">
+                                    <p className="text-uppercase user-title mb-1">Modelos  Dataeconómicos por Percentiles</p>
+                                    <div className="faq-ans">
+                                        <p className="faq-sub-title text-muted pt-2">Examinamos variables específicas como precios, ubicaciones y características de propiedades en distintos rangos percentiles para identificar tendencias ocultas y patrones emergentes.</p>
+                                    </div>
+                                </div>
+                                <div className="faq pt-5">
+                                    <p className="text-uppercase user-title mb-1">Algoritmos de Prospectación</p>
+                                    <div className="faq-ans">
+                                        <p className="faq-sub-title text-muted pt-2">Un enfoque avanzado que utiliza datos históricos y actuales para identificar oportunidades futuras en el mercado inmobiliario.</p>
                                     </div>
                                 </div>
                             </div>
