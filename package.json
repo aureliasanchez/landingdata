@@ -28,7 +28,7 @@
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "3.6.3"
   },
-  "homepage": "http://landing-datalpine.4tocreativo.mx/",
+  "homepage": "http://landing.datalpine.mx/",
   "scripts": {
     "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",
