@@ -36,7 +36,7 @@ class ContactMessage extends Component {
                                     <path d="M66.6665 13.3335H13.3332C9.6665 13.3335 6.69984 16.3335 6.69984 20.0002L6.6665 60.0002C6.6665 63.6668 9.6665 66.6668 13.3332 66.6668H66.6665C70.3332 66.6668 73.3332 63.6668 73.3332 60.0002V20.0002C73.3332 16.3335 70.3332 13.3335 66.6665 13.3335ZM66.6665 26.6668L39.9998 43.3335L13.3332 26.6668V20.0002L39.9998 36.6668L66.6665 20.0002V26.6668Z" fill="#6774DF" />
                                 </svg>
                             </div>
-                            <h2 class="title-contactmessage pb-4">¡Gracias por conctactarnos!</h2>
+                            <h2 class="title-contactmessage pb-4">¡Gracias por contactarnos!</h2>
                             <p class="body-text-contactmessage">Pronto recibirás un email con más información acerca de tu solicitud.</p>
                             <Link to="#" class="button-contactmessage">Regresar</Link>
                         </div>
