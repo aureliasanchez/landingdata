@@ -141,7 +141,7 @@ class Pricing extends Component{
 
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
                                     
-                                        <Link to="contacto@datalpine.mx" className="btn btn-custom btn-rounded" style={{ marginTop: '18px', marginBottom: '20px' }}>Contacto con ventas</Link>
+                                        <Link to="contacto_ventas" className="btn btn-custom btn-rounded" style={{ marginTop: '18px', marginBottom: '20px' }}>Contacto con ventas</Link>
                                     </div>
 
                                 </div>
