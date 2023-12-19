@@ -28,7 +28,7 @@ class Header extends Component{
                 <div className="container">
                         <div>
                             <Link to="index_1" className="logo">
-                                <img src="images/Logo.png" style={{ width: '200px' }} alt="Logo de Steix"/>
+                                <img src="images/Logo.png" style={{ width: '200px' }} alt="Logo Datalpine"/>
                             </Link>
                         </div>
                     

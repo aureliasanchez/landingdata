@@ -298,6 +298,59 @@
     padding-top: 12px;
 }
 
+.section-contactmessage {
+    padding: 80px;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-contactmessage {
+    font-family: 'Nunito', sans-serif;
+    width: 584px;
+    height: 389px;
+    border-radius: 15px;
+    background: #F7F8FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-contactmessage{
+    color: #6774DF;
+    margin-bottom: 0;
+}
+
+.button-contactmessage{
+    width: 214px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background:#28D3AB;
+    color:white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button-contactmessage:hover {
+    background:#19b798;
+    color:white;
+}
+
+.icon-email {
+    width: 74px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #6774DF;
+}
+
 @media (min-width: 992px) {
     #topnav .navigation-menu > li > a {
         padding-top: 25px;
