@@ -22,21 +22,21 @@ class Contact extends Component{
                                     <div className="col-lg-4">
                                         <div className="single-contact text-center text-white"> 
                                             <i className="mdi mdi-cellphone"></i>
-                                            <h4>Teléfono</h4>
+                                            <h4>Teléfono:</h4>
                                             <p>771 330 64 07</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="single-contact text-center text-white"> 
                                             <i className="mdi mdi-map-marker"></i>
-                                            <h4>Dirección</h4>
-                                            <p>Pachuca, Hgo México.</p>
+                                            <h4>Dirección:</h4>
+                                            <p>Calle Puebla 603, colonia Colonia Cubitos, Pachuca de Soto, Hidalgo.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="single-contact text-center text-white"> 
                                             <i className="mdi mdi-email-outline"></i>
-                                            <h4>Email</h4>
+                                            <h4>Correo Electrónico:</h4>
                                             <p>contacto@datalpine.mx</p>
                                         </div>
                                     </div>
