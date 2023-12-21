@@ -36,7 +36,7 @@ class Pricing extends Component{
                                         <Link to="#" className="text-info underline-left" style={{ paddingLeft: '6px'}}>Más Información</Link>
                                     </div>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <Link to="https://datalpine.mx/signup.php" className="btn btn-custom btn-rounded" style={{ marginTop: '80px', marginBottom: '20px' }}>Regístrate Gratis</Link>
+                                    <Link to="datalpine.mx/" className="btn btn-custom btn-rounded" style={{ marginTop: '80px', marginBottom: '20px' }}>Regístrate Gratis</Link>
                                 </div>
                                 </div>
                             </div>

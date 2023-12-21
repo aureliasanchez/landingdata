@@ -44,7 +44,7 @@ class Header extends Component{
                             </li>
                             <li className="mobile-none">
                                 <div className='button-nav'>
-                                <a href="https://datalpine.mx/login.php" target="_blank" rel="noopener" class="styled-button">
+                                <a href="https://datalpine.mx/" target="_blank" rel="noopener" class="styled-button">
                                 Log In
                             </a>
                                 </div>
