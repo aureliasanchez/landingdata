@@ -32,11 +32,9 @@ class Pricing extends Component{
                                         <li>Análisis demográfico</li>
                                     </ul> 
                                     
-                                    <div className="mt-3">
-                                        <Link to="#" className="text-info underline-left" style={{ paddingLeft: '6px'}}>Más Información</Link>
-                                    </div>
+                                    
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <Link to="datalpine.mx/" className="btn btn-custom btn-rounded" style={{ marginTop: '80px', marginBottom: '20px' }}>Regístrate Gratis</Link>
+                                    <Link to="datalpine.mx/" className="btn btn-custom btn-rounded" style={{ marginTop: '120px', marginBottom: '20px' }}>Regístrate Gratis</Link>
                                 </div>
                                 </div>
                             </div>
@@ -45,7 +43,9 @@ class Pricing extends Component{
                                     
                                     <div className="plan-name mt-4">
                                         <h6 style={{paddingBottom: '20px' }}>Plan Horizonte</h6>
-                                        <p style={{ marginBottom: '0' }}>Desde:</p>
+                                        <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Ideal para:</p>                                        
+                                        <p style={{ marginBottom: '0' }}>Agente Inmobiliario o Inmobiliaria</p>
+                                        <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Desde:</p>
                                         <div style={{paddingBottom: '20px' }}>
                                             <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>$899</span>
                                             <span style={{ fontSize: '20px' }}>   al mes</span>
@@ -56,12 +56,8 @@ class Pricing extends Component{
                                         <li>Incluye <strong style={{ color: '#6774DF' }}>1 sesión</strong> de consultoría</li>
                                         <li>Distribución de créditos</li>
                                     </ul>
-                                    
-                                    <div className="mt-3">
-                                        <Link to="#" className="text-info underline-left" style={{ paddingLeft: '6px'}}>Más Información</Link>
-                                    </div>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '120px', marginBottom: '10px' }}>Compra ahora</a>
+                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '105px', marginBottom: '10px' }}>Compra ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +66,9 @@ class Pricing extends Component{
                                 <div className="price-box px-4 pt-4 bg-white  mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
                                     <div className="plan-name mt-4">
                                         <h6 style={{paddingBottom: '20px'}}>Plan Vision</h6>
-                                        <p style={{ marginBottom: '0' }}>Desde:</p>
+                                        <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Ideal para:</p>
+                                        <p style={{ marginBottom: '0' }}>Constructor / Desarrollador</p>
+                                        <p style={{ marginBottom: '0', fontWeight: 'bold'}}>Desde:</p>
                                         <p>
                                             <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>$1,199</span>
                                             <span style={{ fontSize: '20px' }}>   al mes</span>
@@ -81,11 +79,8 @@ class Pricing extends Component{
                                         <li>Incluye <strong style={{ color: '#6774DF' }}>1 sesión</strong> de consultoría mensual <strong style={{ color: '#6774DF' }}> +1 informe </strong> inmobiliario</li>
                                         
                                     </ul>
-                                    <div className="mt-3">
-                                        <Link to="#" className="text-info underline-left" style={{ paddingLeft: '6px'}}>Más Información</Link>
-                                    </div>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '90px', marginBottom: '10px' }}>Compra ahora</a>
+                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '82px', marginBottom: '10px' }}>Compra ahora</a>
                                     </div>
                                  </div>
                             </div>

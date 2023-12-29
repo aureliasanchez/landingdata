@@ -614,6 +614,11 @@ btm .btn-quines-somos h3 {
         text-align: center;
         background-color: #374D67;
     }
+    .bgg-footer {
+        background-color: #343a40 !important;
+    }
+    
+
     .home-title {
         font-size: 30px;
     }

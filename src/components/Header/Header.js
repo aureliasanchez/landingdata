@@ -36,11 +36,19 @@ class Header extends Component{
                     <div id="navigation">
                         
                         <ul className="navigation-menu menu-right">
+                        <li className="mobile-none">
+                        <a href="https://teseodata.com/">Teseo Data Lab</a>
+                            </li><li className="mobile-none">
+                            <a href="#faq">Servicios</a>
+                            </li>
                             <li className="mobile-none">
                             <a href="#quienessomos">Quiénes somos</a>
                             </li>
                             <li className="mobile-none">
                             <a href="#pricing">Planes</a>
+                            </li>
+                            <li className="mobile-none">
+                            <a href="#contact">Contacto</a>
                             </li>
                             <li className="mobile-none">
                                 <div className='button-nav'>
