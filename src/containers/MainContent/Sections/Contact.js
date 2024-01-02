@@ -7,7 +7,7 @@ class Contact extends Component{
     render(){
         return(
             <AUX>
-                <section className="pt-5 bg-dark" id="contact">
+                <section className="pt-5 bg-dark" id="contact" style={{paddingTop: '40px', paddingBottom: '40px'}}>
                     <div className="container">
                         <div className="row justify-content-center pt-5">
                             <div className="col-md-8">
