@@ -7,7 +7,7 @@ class Pricing extends Component{
     render(){
         return(
             <AUX>
-                <section className="section bg-light" id="pricing" style={{paddingTop: '150px', paddingBottom: '200px'}}>
+                <section className="section bg-light" id="pricing" style={{paddingTop: '40px', paddingBottom: '100px'}}>
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-md-8">
@@ -34,7 +34,7 @@ class Pricing extends Component{
                                     
                                     
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <Link to="datalpine.mx/" className="btn btn-custom btn-rounded" style={{ marginTop: '120px', marginBottom: '20px' }}>Regístrate Gratis</Link>
+                                    <a href="https://datalpine.mx/" className='btn btn-custom btn-rounded' style={{ marginTop: '105px', marginBottom: '10px' }}>Regístrate ahora</a>
                                 </div>
                                 </div>
                             </div>
@@ -85,62 +85,53 @@ class Pricing extends Component{
                                  </div>
                             </div>
 
-                            <div className="col-lg-4">
-                                <div className="price-box px-4 pt-4 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
-                                    
-                                    <div className="plan-name mt-4">
-                                        <h6 style={{paddingBottom: '20px', lineHeight:'1.5em' }}>Factibilidad <br></br> Financiera</h6>
-                                        
-                                    </div>
-
-                                    <ul style={{ paddingLeft: '18px'}}>
-                                        <li className='pb-3'>Evaluación detallada de costos y beneficios.</li>
-                                        <li className='pb-3'>Análisis de riesgos financiero para una planificación estratégica.</li>
-                                        <li className='pb-3'>Proyecciones de rendimiento a largo plazo.</li>
-                                        <li className='pb-3'>Informes personalizables para presentaciones efectivas.</li>
-                                    </ul>
-                                    
-                                    {/* <div className="mt-3">
-                                        <Link to="#" className="text-info underline-left">Más Información</Link>
-                                    </div> */}
-
-                                    <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <Link to="contacto_ventas" className="btn btn-custom btn-rounded" style={{ marginTop: '18px', marginBottom: '20px' }}>Contacto con ventas</Link>
-                            
-                                    </div>
-                                </div>
-
+                            {/* Separador visual */}
+                            <div className="col-lg-12 text-center mt-4">
+                            <hr style={{ border: '1px solid #ddd' }} />
+                            <h2 className="section-title pt-5">Otros Productos</h2>
                             </div>
 
-                            <div className="col-lg-4">
-                                <div className="price-box px-4 pt-4 bg-white text-justify mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
-                                    
-                                    <div className="plan-name mt-4" >
-                                        <h6 style={{paddingBottom: '20px', lineHeight:'1.5em' }}>Optimización del Producto</h6>
-                                        
-                                    </div>
-                                    <ul style={{ paddingLeft: '18px' }}>
-                                        
-                                        <li className='pb-3'>Análisis detallado de la eficiencia espacial.</li>
-                                        <li className='pb-3'>Recomendaciones para la selección de materiales y acabados</li>
-                                        <li className='pb-3'>Estrategias de optimización de costos.</li>
-                                        <li className='pb-3'>Personalización según las tendencias del mercado.</li>
-
-
-                                    </ul>
-                                    
-                                    {/* <div className="mt-3">
-                                        <Link to="#" className="text-info underline-left">Más Información</Link>
-                                    </div> */}
-                                    
-
-                                    <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    
-                                        <Link to="contacto_ventas" className="btn btn-custom btn-rounded" style={{ marginTop: '18px', marginBottom: '20px' }}>Contacto con ventas</Link>
-                                    </div>
-
+                            <div className="col-md-6">
+                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height: '350px' }}>
+                                <div className="plan-name mt-4">
+                                <h6 style={{paddingBottom: '10px', lineHeight:'1.2em' }}>Factibilidad Financiera</h6>
+                                </div>
+                                <ul style={{ paddingLeft: '18px' }}>
+                                <li className='pb-2'>Análisis detallado de la eficiencia espacial.</li>
+                                <li className='pb-2'>Recomendaciones para la selección de materiales y acabados</li>
+                                <li className='pb-2'>Estrategias de optimización de costos.</li>
+                                <li className='pb-2'>Personalización según las tendencias del mercado.</li>
+                                </ul>
+                                {/* <div className="mt-2">
+                                <Link to="#" className="text-info underline-left">Más Información</Link>
+                                </div> */}
+                                <div className="mt-2 mb-10 d-flex justify-content-center align-items-center" style={{ marginBottom: '20px' }}>
+                                <Link to="contacto_ventas" className="btn btn-custom btn-rounded" style={{ marginTop: '8px', marginBottom: '10px' }}>Contacto con ventas</Link>
                                 </div>
                             </div>
+                            </div>
+
+
+                            <div className="col-md-6">
+                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height: '350px' }}>
+                            <div className="plan-name mt-4">
+                                <h6 style={{paddingBottom: '10px', lineHeight:'1.2em' }}>Optimización del Producto</h6>
+                                </div>
+                                <ul style={{ paddingLeft: '18px' }}>
+                                <li className='pb-2'>Análisis detallado de la eficiencia espacial.</li>
+                                <li className='pb-2'>Recomendaciones para la selección de materiales y acabados</li>
+                                <li className='pb-2'>Estrategias de optimización de costos.</li>
+                                <li className='pb-2'>Personalización según las tendencias del mercado.</li>
+                                </ul>
+                                {/* <div className="mt-2">
+                                <Link to="#" className="text-info underline-left">Más Información</Link>
+                                </div> */}
+                                <div className="mt-2 mb-10 d-flex justify-content-center align-items-center" style={{ marginBottom: '20px' }}>
+                                <Link to="contacto_ventas" className="btn btn-custom btn-rounded" style={{ marginTop: '8px', marginBottom: '10px' }}>Contacto con ventas</Link>
+                                </div>
+                            </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>

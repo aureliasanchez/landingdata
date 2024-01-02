@@ -12,7 +12,7 @@ class Faq extends Component{
                             <div className="col-md-8">
                                 <div className="text-center">
                                     
-                                    <h3 className="section-title pt-5">Lo que nos hace diferentes</h3>
+                                    <h3 className="section-title pt-5">Características del software</h3>
                                 </div>
                             </div>
                         </div>

@@ -11,8 +11,7 @@ class Client extends Component{
                         <div className="row justify-content-center">
                             <div className="col-md-8">
                                 <div className="text-center">
-                                    
-                                    <h3 className="section-title pt-5">Testimonios y comentarios</h3>
+                                    <h2 className="section-title pt-5">Testimonios y comentarios</h2>
                                 </div>
                             </div>
                         </div>
