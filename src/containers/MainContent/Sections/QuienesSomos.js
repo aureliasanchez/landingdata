@@ -7,7 +7,7 @@ class QuienesSomos extends Component {
     render() {
         return (
             <AUX>
-                <section className="section" id="quienessomos" style={{ paddingTop: '200px', paddingBottom: '200px' }}>
+                <section className="section" id="quienessomos" style={{ paddingTop: '20px', paddingBottom: '80px' }}>
 
                     <div className="container" style={{ paddingBottom: '200px' }}>
                         <div className="row vertical-content">

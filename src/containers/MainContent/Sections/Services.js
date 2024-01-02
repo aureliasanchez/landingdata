@@ -6,7 +6,7 @@ class Services extends Component{
     render(){
         return(
             <AUX>
-                <section className="section" id="services" style={{paddingBottom: '200px'}}>
+                <section className="section" id="services" style={{paddingTop: '20px', paddingBottom: '80px'}}>
                     <div className="container">
                         <div className="row justify-content-center pt-5">
                             <div className="col-md-8 text-center">

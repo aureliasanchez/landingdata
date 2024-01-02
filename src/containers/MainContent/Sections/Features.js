@@ -7,7 +7,7 @@ class Features extends Component{
     render(){
         return(
             <AUX>
-            <section className="section" id="features" style={{paddingTop: '200px', paddingBottom: '200px'}}>
+            <section className="section" id="features" style={{paddingTop: '150px', paddingBottom: '80px'}}>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-8 text-center">

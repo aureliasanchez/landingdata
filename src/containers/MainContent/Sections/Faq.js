@@ -6,7 +6,7 @@ class Faq extends Component{
     render(){
         return(
             <AUX>
-                <section className="section bg-light" id="faq" style={{paddingTop: '150px', paddingBottom: '200px'}}>
+                <section className="section bg-light" id="faq" style={{paddingTop: '30px', paddingBottom: '80px'}}>
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-md-8">
