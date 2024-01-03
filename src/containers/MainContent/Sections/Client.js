@@ -19,12 +19,10 @@ class Client extends Component{
                             <div className="col-md-4">
                                 <div className="testimonial-box">
                                     <div className="testimonial-desc bg-light p-4">
-                                        <p className="text-center text-muted"><span>"</span>DatAlpine ha transformado la forma en que evaluamos y desarrollamos proyectos. Con sus análisis detallados, hemos identificado oportunidades que antes no tomaba en cuenta. ¡Una herramienta esencial para cualquier constructor!<span>"</span></p>
-                                        <p className="text-center mb-0 quote-icon text-custom"><i className="mdi mdi-format-quote-open"></i></p>
+                                    <p className="text-center text-muted"><span>"</span>DatAlpine ha transformado la forma en que evaluamos y desarrollamos proyectos. Con sus análisis detallados, hemos identificado oportunidades que antes no tomaba en cuenta. ¡Una herramienta esencial para cualquier constructor!<span>"</span></p> 
+                                    <p className="text-center mb-0 quote-icon text-custom"><i className="mdi mdi-format-quote-open"></i></p>
                                         <p className="text-center text-muted nombre"><span></span>Luis G.<span></span></p>
                                     </div>
-                                    
-
                                     <div className="mt-4 testi-img">
                                     </div>
                                 </div>
@@ -34,10 +32,10 @@ class Client extends Component{
                                     <div className="testimonial-desc bg-light p-4">
                                         <p className="text-center text-muted"><span>"</span>Como inversor, siempre busco tomar decisiones respaldadas por datos sólidos. Los informes me ha proporcionado insights valiosos sobre tendencias de mercado y de esta manera reconocer oportunidades de inversión.<span>"</span></p>
                                         <p className="text-center mb-0 quote-icon text-custom"><i className="mdi mdi-format-quote-open"></i></p>
+                                        {/*<p className="text-center mb-0 quote-icon text-custom"><img src="images/Logo.png" alt="Cita Icono" /></p>*/}                                        
                                         <p className="text-center text-muted nombre"><span></span>Joel F.<span></span></p>
 
                                     </div>
-                                    
                                 </div>
                             </div>
                             <div className="col-md-4">
