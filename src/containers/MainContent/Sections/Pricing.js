@@ -19,68 +19,89 @@ class Pricing extends Component{
                         <div className="row mt-5">
                             <div className="col-lg-4">
                             
-                            <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
-                                    
-                                    <div className="plan-name mt-4" style={{paddingBottom: '42px' }}>
-                                        <h6 style={{paddingBottom: '25px' }}>Plan Panorama</h6>
+                            <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: 'auto'}}>
+                                <div className="plan-name mt-4" style={{paddingBottom: '42px' }}>
+                                        <h6 style={{paddingBottom: '25px', fontSize: '35px' }}>Plan Panorama</h6>
+                                        <p style={{ marginBottom: '0' }}>Muestra un resumen histórico de precios, comprende la distribución y tendencias por segmento, y accede a análisis demográficos, comparativas regionales y más.</p>                                        
                                         <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>Gratuito</span>
                                     </div>
 
                                     <ul style={{ paddingLeft: '18px', lineHeight: '2em'}}>
                                         <li>Resumen general del mercado</li>
-                                        <li>Modelo gratuito</li>
-                                        <li>Análisis demográfico</li>
+                                        <li>Distribución de Propiedades por Segmento</li>
+                                        <li>Tendencias de Precios por Segmento</li>
+                                        <li>Comparativa Regional</li>
+                                        <li>Estacionalidad</li>                                        
+                                        <li>Tendencias de Precios por Segmento</li>
+                                        <li>Índice de Precios</li>
                                     </ul> 
                                     
                                     
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <a href="https://datalpine.mx/" className='btn btn-custom btn-rounded' style={{ marginTop: '105px', marginBottom: '10px' }}>Regístrate ahora</a>
+                                    <a href="https://datalpine.mx/" className='btn btn-custom btn-rounded' style={{ marginTop: '05px', marginBottom: '30px' }}>Regístrate ahora</a>
                                 </div>
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <div className="price-box px-4 pt-4 bg-white text-left mt-4 price-box-container " style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
-                                    
+                                <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '722px'}}>                                    
                                     <div className="plan-name mt-4">
-                                        <h6 style={{paddingBottom: '20px' }}>Plan Horizonte</h6>
+                                        <h6 style={{paddingBottom: '20px', fontSize: '35px' }}>Plan Horizonte</h6>
+                                        <p style={{ marginBottom: '0',  }}>Brinda un conjunto de herramientas aún más completo, respaldadas por datos verificados para tomar decisiones informadas en el mercado inmobiliario.</p>                                       
+                                        
+                                    </div>
+                                    <div className="plan-name mt-4">    
                                         <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Ideal para:</p>                                        
                                         <p style={{ marginBottom: '0' }}>Agente Inmobiliario o Inmobiliaria</p>
-                                        <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Desde:</p>
+                                    </div>
+                                    <div className="plan-name mt-4">    
+                                    <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Desde:</p>
                                         <div style={{paddingBottom: '20px' }}>
                                             <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>$899</span>
                                             <span style={{ fontSize: '20px' }}>   al mes</span>
                                         </div>
                                     </div>
-
                                     <ul style={{ paddingLeft: '18px', lineHeight: '2em' }}>
-                                        <li>Incluye <strong style={{ color: '#6774DF' }}>1 sesión</strong> de consultoría</li>
+                                        <li>Todo del Plan Panorama</li>
+                                        <li><strong style={{ color: '#6774DF' }}>1 sesión</strong> de consultoría</li>
                                         <li>Distribución de créditos</li>
+                                        <li>Análisis detallado del mercado</li>
+                                        <li>Demanda y salario</li>
+                                        <li>Profesiones y Oficios</li>
                                     </ul>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '105px', marginBottom: '10px' }}>Compra ahora</a>
+                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '15px', marginBottom: '20px' }}>Compra ahora</a>
                                     </div>
                                 </div>
                             </div>
                             
                             <div className="col-lg-4">
-                                <div className="price-box px-4 pt-4 bg-white  mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px'}}>
+                            <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '722px'}}>                                    
                                     <div className="plan-name mt-4">
-                                        <h6 style={{paddingBottom: '20px'}}>Plan Vision</h6>
-                                        <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Ideal para:</p>
-                                        <p style={{ marginBottom: '0' }}>Constructor / Desarrollador</p>
-                                        <p style={{ marginBottom: '0', fontWeight: 'bold'}}>Desde:</p>
-                                        <p>
-                                            <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>$1,199</span>
+                                        <h6 style={{paddingBottom: '20px', fontSize: '35px'}}>Plan Vision</h6>
+                                    
+                                        <p style={{ marginBottom: '0' }}>Brinda un conjunto de herramientas aún más completo, respaldadas por datos verificados para tomar decisiones informadas en el mercado inmobiliario.</p>                                       
+                                        
+                                    </div>
+                                    <div className="plan-name mt-4">    
+                                        <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Ideal para:</p>                                        
+                                        <p style={{ marginBottom: '0' }}>Agente Inmobiliario o Inmobiliaria</p>
+                                    </div>
+                                    <div className="plan-name mt-4">    
+                                    <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Desde:</p>
+                                        <div style={{paddingBottom: '20px' }}>
+                                            <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>$899</span>
                                             <span style={{ fontSize: '20px' }}>   al mes</span>
-                                        </p>
+                                        </div>
                                     </div>
                                     <ul style={{ paddingLeft: '18px', lineHeight: '2em' }}>
+                                        <li>Todo del Plan Horizonte</li>
+                                        <li>Optimización de Espacios</li>
                                         <li>Personalización total</li>
                                         <li>Incluye <strong style={{ color: '#6774DF' }}>1 sesión</strong> de consultoría mensual <strong style={{ color: '#6774DF' }}> +1 informe </strong> inmobiliario</li>
-                                        
+                                        <li>Acceso a toda la plataforma y su información</li>
                                     </ul>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '82px', marginBottom: '10px' }}>Compra ahora</a>
+                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '10px', marginBottom: '30px' }}>Compra ahora</a>
                                     </div>
                                  </div>
                             </div>
@@ -88,19 +109,20 @@ class Pricing extends Component{
                             {/* Separador visual */}
                             <div className="col-lg-12 text-center mt-4">
                             <hr style={{ border: '1px solid #ddd' }} />
-                            <h2 className="section-title pt-5">Otros Productos</h2>
+                            <h2 className="section-title pt-5">SERVICIOS DATA PREMIUM</h2>
                             </div>
 
                             <div className="col-md-6">
-                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height: '350px' }}>
+                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height: '400px' }}>
                                 <div className="plan-name mt-4">
-                                <h6 style={{paddingBottom: '10px', lineHeight:'1.2em' }}>Factibilidad Financiera</h6>
+                                <h6 style={{paddingBottom: '10px', lineHeight:'1.2em'  }}>Factibilidad Financiera para el mercado inmobiliario</h6>
                                 </div>
+                                <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Te ofrecemos una herramienta robusta y fácil de usar que evalúa la viabilidad económica de tus proyectos inmobiliarios.</p>                                     
                                 <ul style={{ paddingLeft: '18px' }}>
-                                <li className='pb-2'>Análisis detallado de la eficiencia espacial.</li>
-                                <li className='pb-2'>Recomendaciones para la selección de materiales y acabados</li>
-                                <li className='pb-2'>Estrategias de optimización de costos.</li>
-                                <li className='pb-2'>Personalización según las tendencias del mercado.</li>
+                                <li className='pb-2'>Evaluación detallada de costos y beneficios.</li>
+                                <li className='pb-2'>Análisis de riesgos financiero para una planificación estratégica</li>
+                                <li className='pb-2'>Proyecciones de rendimiento a largo plazo.</li>
+                                <li className='pb-2'>Informes personalizables para presentaciones efectivas.</li>
                                 </ul>
                                 {/* <div className="mt-2">
                                 <Link to="#" className="text-info underline-left">Más Información</Link>
@@ -113,10 +135,11 @@ class Pricing extends Component{
 
 
                             <div className="col-md-6">
-                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height: '350px' }}>
+                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height: '400px' }}>
                             <div className="plan-name mt-4">
-                                <h6 style={{paddingBottom: '10px', lineHeight:'1.2em' }}>Optimización del Producto</h6>
+                                <h6 style={{paddingBottom: '10px', lineHeight:'1.2em' }}>Optimización del Producto para el mercado inmobiliario</h6>
                                 </div>
+                                <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Te ofrecemos las herramientas necesarias para mejorar la eficiencia operativa y la rentabilidad de tus proyectos.</p>                                     
                                 <ul style={{ paddingLeft: '18px' }}>
                                 <li className='pb-2'>Análisis detallado de la eficiencia espacial.</li>
                                 <li className='pb-2'>Recomendaciones para la selección de materiales y acabados</li>
