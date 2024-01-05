@@ -74,7 +74,7 @@ class Footer extends Component{
     render(){
         return(
             <AUX>
-              <section className="pt-5 bg-dark" id="contact" style={{paddingTop: '30px', paddingBottom: '0px'}}>
+              <section className="pt-1 bg-dark" id="contact" style={{paddingTop: '5px', paddingBottom: '0px'}}>
                     <div className="row mt-5 pt-5 pb-2">
                   <div className="col-md-6">
                     <div className="text-white pl-4 pr-4">

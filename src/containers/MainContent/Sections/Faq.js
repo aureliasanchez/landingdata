@@ -28,14 +28,14 @@ class Faq extends Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="row justify-content-center mt-5 price-box p-5 bg-white text-center mt-1" style={{height:800, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
+                        <div className="row justify-content-center mt-5 price-box p-5 bg-white text-center mt-1" style={{height:650, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
                             <div className="col-lg-6 faq-side"> 
                                 <div className="faq pt-5">
                                     <p className="text-uppercase user-title mb-1">
                                         <FaLightbulb className="icono-titulo mr-2" /> Recomendaciones Estratégicas
                                     </p>
                                     <div className="faq-ans">
-                                        <p className="faq-sub-title text-muted pt-2">Adaptadas a tus necesidades.</p>
+                                        <p className="faq-sub-title text-muted pt-2">Diseñadas a medida que se adaptan para satisfacer tus objetivos y necesidades específicas . Con un enfoque personalizado, te ofrecemos recomendaciones estratégicas que impulsarán tu éxito y te posicionarán de manera única en el sector.</p>
                                     </div>
                                 </div>
                                       {/* <div className="faq pt-5">
@@ -50,7 +50,7 @@ class Faq extends Component{
                                         <FaSyncAlt className="icono-titulo mr-2" /> Actualizaciones Regulares
                                     </p>
                                     <div className="faq-ans">
-                                        <p className="faq-sub-title text-muted pt-2">Análisis precisos en tiempo real.</p>
+                                        <p className="faq-sub-title text-muted pt-2">Mantenemos la información siempre relevante con análisis precisos y actualizaciones constantes, proporcionándo una visión en tiempo real del dinámico panorama inmobiliario.</p>
                                     </div>
                                 </div>
                                     {/* <div className="faq pt-5">
@@ -64,7 +64,7 @@ class Faq extends Component{
                                         <FaChartBar className="icono-titulo mr-2" /> Enfoque Analítico
                                     </p>
                                     <div className="faq-ans">
-                                        <p className="faq-sub-title text-muted pt-2">Ofrecemos detalles por región y tipo de propiedad.</p>
+                                        <p className="faq-sub-title text-muted pt-2">Proporcionamos análisis específicos por región y tipo de propiedad, brindándote una visión detallada y completa para una toma de decisiones informadas.</p>
                                     </div>
                                 </div>    
                                 
@@ -75,7 +75,7 @@ class Faq extends Component{
                                         <FaRocket className="mr-2" /> Tecnologías Avanzadas
                                     </p>
                                     <div className="faq-ans">
-                                        <p className="faq-sub-title text-muted pt-2">Utilizamos IA y Big Data.</p>
+                                        <p className="faq-sub-title text-muted pt-2">Integrando inteligencia artificial y Big Data, aprovechamos las tecnologías más avanzadas para ofrecerte insights profundos y precisos en el mercado inmobiliario.</p>
                                     </div>
                                 </div>
                                 <div className="faq pt-5">
@@ -83,7 +83,7 @@ class Faq extends Component{
                                         <FaDatabase className="icono-titulo mr-2" /> Modelos Dataeconómicos
                                     </p>
                                     <div className="faq-ans">
-                                        <p className="faq-sub-title text-muted pt-2">Examinamos variables específicas como precios, ubicaciones y características de propiedades en distintos rangos percentiles para identificar tendencias ocultas y patrones emergentes.</p>
+                                        <p className="faq-sub-title text-muted pt-2">Exploramos variables específicas, como precios, ubicaciones y características de propiedades, utilizando modelos de datos avanzados que identifican tendencias ocultas y patrones emergentes para respaldar estrategias informadas.</p>
                                     </div>
                                 </div>
                                 <div className="faq pt-5">
@@ -91,7 +91,7 @@ class Faq extends Component{
                                         <FaSearch className="icono-titulo mr-2" /> Algoritmos de Prospectación
                                     </p>
                                     <div className="faq-ans">
-                                        <p className="faq-sub-title text-muted pt-2">Un enfoque avanzado que utiliza datos históricos y actuales para identificar oportunidades futuras en el mercado inmobiliario.</p>
+                                        <p className="faq-sub-title text-muted pt-2">Adoptamos un enfoque avanzado mediante algoritmos de prospección que, basados en datos históricos y actuales, identifican oportunidades futuras en el mercado inmobiliario, brindándote una ventaja estratégica.</p>
                                     </div>
                                 </div>
                             </div>

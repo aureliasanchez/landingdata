@@ -23,6 +23,8 @@ class Pricing extends Component{
                                 <div className="plan-name mt-4" style={{paddingBottom: '42px' }}>
                                         <h6 style={{paddingBottom: '25px', fontSize: '35px' }}>Plan Panorama</h6>
                                         <p style={{ marginBottom: '0' }}>Muestra un resumen histórico de precios, comprende la distribución y tendencias por segmento, y accede a análisis demográficos, comparativas regionales y más.</p>                                        
+                                    </div>
+                                    <div className="plan-name mt-4" style={{paddingBottom: '42px' }}>
                                         <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>Gratuito</span>
                                     </div>
 
@@ -43,7 +45,7 @@ class Pricing extends Component{
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '722px'}}>                                    
+                                <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '800px'}}>                                    
                                     <div className="plan-name mt-4">
                                         <h6 style={{paddingBottom: '20px', fontSize: '35px' }}>Plan Horizonte</h6>
                                         <p style={{ marginBottom: '0',  }}>Brinda un conjunto de herramientas aún más completo, respaldadas por datos verificados para tomar decisiones informadas en el mercado inmobiliario.</p>                                       
@@ -69,17 +71,17 @@ class Pricing extends Component{
                                         <li>Profesiones y Oficios</li>
                                     </ul>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '15px', marginBottom: '20px' }}>Compra ahora</a>
+                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '65px', marginBottom: '10px' }}>Compra ahora</a>
                                     </div>
                                 </div>
                             </div>
                             
                             <div className="col-lg-4">
-                            <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '722px'}}>                                    
+                            <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '800px'}}>                                    
                                     <div className="plan-name mt-4">
                                         <h6 style={{paddingBottom: '20px', fontSize: '35px'}}>Plan Vision</h6>
                                     
-                                        <p style={{ marginBottom: '0' }}>Brinda un conjunto de herramientas aún más completo, respaldadas por datos verificados para tomar decisiones informadas en el mercado inmobiliario.</p>                                       
+                                        <p style={{ marginBottom: '0' }}>Proporciona una versión mucho más descriptiva, analítica y personalizada, proporcionando acceso a funcionalidades avanzadas.</p>                                       
                                         
                                     </div>
                                     <div className="plan-name mt-4">    
@@ -101,7 +103,7 @@ class Pricing extends Component{
                                         <li>Acceso a toda la plataforma y su información</li>
                                     </ul>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '10px', marginBottom: '30px' }}>Compra ahora</a>
+                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '30px', marginBottom: '10px' }}>Compra ahora</a>
                                     </div>
                                  </div>
                             </div>
@@ -109,7 +111,7 @@ class Pricing extends Component{
                             {/* Separador visual */}
                             <div className="col-lg-12 text-center mt-4">
                             <hr style={{ border: '1px solid #ddd' }} />
-                            <h2 className="section-title pt-5">SERVICIOS DATA PREMIUM</h2>
+                            <h2 className="section-title pt-5">Servicios Data Premium</h2>
                             </div>
 
                             <div className="col-md-6">
