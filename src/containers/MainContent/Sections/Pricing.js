@@ -59,7 +59,7 @@ class Pricing extends Component{
                                     <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Desde:</p>
                                         <div style={{paddingBottom: '20px' }}>
                                             <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>$899</span>
-                                            <span style={{ fontSize: '20px' }}>   al mes</span>
+                                            <span style={{ fontSize: '20px' }}>al mes</span>
                                         </div>
                                     </div>
                                     <ul style={{ paddingLeft: '18px', lineHeight: '2em' }}>
@@ -86,12 +86,12 @@ class Pricing extends Component{
                                     </div>
                                     <div className="plan-name mt-4">    
                                         <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Ideal para:</p>                                        
-                                        <p style={{ marginBottom: '0' }}>Agente Inmobiliario o Inmobiliaria</p>
+                                        <p style={{ marginBottom: '0' }}>Constructor / Desarrollador</p>
                                     </div>
                                     <div className="plan-name mt-4">    
                                     <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Desde:</p>
                                         <div style={{paddingBottom: '20px' }}>
-                                            <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>$899</span>
+                                            <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>$1,199</span>
                                             <span style={{ fontSize: '20px' }}>   al mes</span>
                                         </div>
                                     </div>

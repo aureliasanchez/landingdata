@@ -32,7 +32,7 @@ class QuienesSomos extends Component {
                     </div>
 
                     <div className='container-quines-somos' style={{boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
-                        <img className='container-img' src="images/Logo.png" style={{paddingBottom: '10px'}}/>
+                        <img className='container-img' src="images/Logo.png" style={{paddingBottom: '5px'}}/>
                         <p className='container-txt'>Tu socio en decisiones inmobiliarias</p>
                         <a href="#contact" className='btn-quines-somos'>Contáctanos</a>
                     </div>
