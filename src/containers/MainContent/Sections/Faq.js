@@ -80,7 +80,7 @@ class Faq extends Component{
                                 </div>
                                 <div className="faq pt-5">
                                     <p className="text-uppercase user-title mb-1">
-                                        <FaDatabase className="icono-titulo mr-2" /> Modelos Dataeconómicos
+                                        <FaDatabase className="icono-titulo mr-2" /> Modelos Dataencométricos
                                     </p>
                                     <div className="faq-ans">
                                         <p className="faq-sub-title text-muted pt-2">Exploramos variables específicas, como precios, ubicaciones y características de propiedades, utilizando modelos de datos avanzados que identifican tendencias ocultas y patrones emergentes para respaldar estrategias informadas.</p>

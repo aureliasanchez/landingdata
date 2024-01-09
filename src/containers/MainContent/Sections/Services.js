@@ -21,7 +21,7 @@ class Services extends Component{
                                         <i className="mdi mdi-trending-up text-center"></i>
                                     </div>
                                     <div className="service-desc pt-4 price-box-container-service text-left" style={{ height: '260px' }}>
-                                        <h5>Predicciones Basadas en Algoritmos Avanzados</h5>
+                                        <h5>Predicciones Basadas en Algoritmos</h5>
                                         <ul>
                                             <li>Precio promedio de propiedades</li>
                                             <li>M2 construcción y terreno</li>
@@ -43,7 +43,7 @@ class Services extends Component{
                                             <li>Precio por M2 de construcción y terreno</li>
                                             <li>Precio (máximo, mínimo, medio) de propiedades</li>
                                             <li>M2 (máximo, mínimo, promedio) de terreno y construidos</li>
-                                            <li>Información detallada sobre salarios promedio por persona y pareja.</li>
+                                            <li>Información detallada sobre salarios promedio por persona y pareja</li>
                                         </ul>
                                    </div>
                                 </div>
@@ -60,6 +60,8 @@ class Services extends Component{
                                             <li>Número de baños, recámaras y estacionamiento</li>
                                             <li>Ubicación de la propiedad</li>
                                             <li>Tiempo estimado de venta</li>
+                                            <li>Rango de segmento</li>
+                                            <li>M2 construcción y terreno</li>
                                         </ul>
                                     </div>
                                 </div>

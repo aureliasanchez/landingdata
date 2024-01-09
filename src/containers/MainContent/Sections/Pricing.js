@@ -40,7 +40,7 @@ class Pricing extends Component{
                                     
                                     
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <a href="https://datalpine.mx/" className='btn btn-custom btn-rounded' style={{ marginTop: '05px', marginBottom: '30px' }}>Regístrate ahora</a>
+                                    <Link to="registro" className="btn btn-custom btn-rounded" style={{ marginTop: '8px', marginBottom: '10px' }}>Regístrate ahora</Link>
                                 </div>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ class Pricing extends Component{
                                 <div className="plan-name mt-4">
                                 <h6 style={{paddingBottom: '10px', lineHeight:'1.2em'  }}>Factibilidad Financiera para el mercado inmobiliario</h6>
                                 </div>
-                                <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Te ofrecemos una herramienta robusta y fácil de usar que evalúa la viabilidad económica de tus proyectos inmobiliarios.</p>                                     
+                                <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Te ofrecemos un análisis robusto y fácil de usar que evalúa la viabilidad económica de tus proyectos inmobiliarios.</p>                                     
                                 <ul style={{ paddingLeft: '18px' }}>
                                 <li className='pb-2'>Evaluación detallada de costos y beneficios.</li>
                                 <li className='pb-2'>Análisis de riesgos financiero para una planificación estratégica</li>
@@ -141,7 +141,7 @@ class Pricing extends Component{
                             <div className="plan-name mt-4">
                                 <h6 style={{paddingBottom: '10px', lineHeight:'1.2em' }}>Optimización del Producto para el mercado inmobiliario</h6>
                                 </div>
-                                <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Te ofrecemos las herramientas necesarias para mejorar la eficiencia operativa y la rentabilidad de tus proyectos.</p>                                     
+                                <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Te ofrecemos un análisis para mejorar la eficiencia operativa y la rentabilidad de tus proyectos.</p>                                     
                                 <ul style={{ paddingLeft: '18px' }}>
                                 <li className='pb-2'>Análisis detallado de la eficiencia espacial.</li>
                                 <li className='pb-2'>Recomendaciones para la selección de materiales y acabados</li>
