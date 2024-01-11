@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import AUX from '../../../hoc/Aux_';
 import * as actionTypes from '../../../store/action';
 import { connect } from 'react-redux';
+import emailjs from 'emailjs-com';
+import { withRouter } from 'react-router-dom';
 
 
 
@@ -16,10 +18,75 @@ class Registro extends Component {
             this.props.UpdateLoginAgain();
         }
     }
-
+    constructor(props) {
+        super(props);
+        this.state = {
+            formData: {
+                fullName: '',
+                email: '',
+                phone: '',
+                address: '',
+                postalCode: '',
+            },
+        };
+    }
+    handleInputChange = (event, fieldName) => {
+        const { value } = event.target;
+        this.setState((prevState) => ({
+            formData: {
+                ...prevState.formData,
+                [fieldName]: value,
+            },
+        }));
+    };
+    handleSubmit = async (event) => {
+        event.preventDefault();
     
+        const { fullName, email, phone, address, postalCode } = this.state.formData;
+    
+        try {
+            // Use EmailJS to send the email
+            const templateParams = {
+                fullName,
+                email,
+                phone,
+                address,
+                postalCode,
+            };
+    
+            // Replace 'YOUR_EMAILJS_SERVICE_ID', 'YOUR_EMAILJS_TEMPLATE_ID', and 'YOUR_EMAILJS_USER_ID' with your actual values
+            const response = await emailjs.send(
+                'service_nlgwtrr',
+                'template_x7m5qja',
+                templateParams,
+                'Wh-J2AXXNyIZIN9xb'
+            );
+    
+             // Check the response from EmailJS
+        if (response.status === 200) {
+            console.log('Form data sent successfully.');
+
+            // Redirect to the registration confirmation page
+            this.props.history.push('/ContactMessage');
+        } else {
+            console.error('Failed to send form data.');
+        }
+    } catch (error) {
+        console.error('Error sending form data:', error.message);
+    }
+    };
+    
+    componentDidMount() {
+        if (this.props.loginpage === false) {
+            this.props.UpdateLogin();
+        }
+        window.onpopstate = (e) => {
+            this.props.UpdateLoginAgain();
+        }
+    }
 
     render() {
+        const { formData } = this.state;
         return (
             <AUX>
                 <div className="">
@@ -44,23 +111,59 @@ class Registro extends Component {
                                                 <p className="text-white-50 text-center">Sign Up For a new Account</p>
                                             </div>
                                             <div className="p-4 mt-4 rounded" style={{ backgroundColor: '#F7F8FC', boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)' }}>
-                                                <form className="login-form" action="index_1">
+                                                <form className="login-form" onSubmit={this.handleSubmit}>
                                                     <div className="row">
-                                                        <div className="col-lg-12 mt-4">
-                                                            <input type="text" className="form-control" placeholder="Nombre Completo" required="" />
-                                                        </div>
-                                                        <div className="col-lg-12 mt-4">
-                                                            <input type="email" className="form-control" placeholder="Correo Electrónico" required="" />
-                                                        </div>
-                                                        <div className="col-lg-12 mt-4">
-                                                            <input type="tel" className="form-control" placeholder="Teléfono" required="" />
-                                                        </div>
-                                                        <div className="col-lg-12 mt-4">
-                                                            <input type="tel" className="form-control" placeholder="Direccion" required="" />
-                                                        </div>
-                                                        <div className="col-lg-12 mt-4">
-                                                            <input type="tel" className="form-control" placeholder="Codigo Postal" required="" />
-                                                        </div>
+                                                    <div className="col-lg-12 mt-4">
+                                                        <input
+                                                            type="text"  // Set type to "text"
+                                                            className="form-control"
+                                                            placeholder="Nombre Completo"
+                                                            required=""
+                                                            value={formData.fullName}
+                                                            onChange={(e) => this.handleInputChange(e, 'fullName')}
+                                                        />
+                                                    </div>
+                                                    <div className="col-lg-12 mt-4">
+                                                        <input
+                                                            type="email"  // Set type to "email"
+                                                            className="form-control"
+                                                            placeholder="Correo Electrónico"
+                                                            required=""
+                                                            value={formData.email}
+                                                            onChange={(e) => this.handleInputChange(e, 'email')}
+                                                        />
+                                                    </div>
+                                                    <div className="col-lg-12 mt-4">
+                                                        <input
+                                                            type="tel"  // Set type to "tel"
+                                                            className="form-control"
+                                                            placeholder="Teléfono"
+                                                            required=""
+                                                            value={formData.phone}
+                                                            onChange={(e) => this.handleInputChange(e, 'phone')}
+                                                        />
+                                                    </div>
+                                                    <div className="col-lg-12 mt-4">
+                                                        <input
+                                                            type="text"  // Set type to "text"
+                                                            className="form-control"
+                                                            placeholder="Direccion"
+                                                            required=""
+                                                            value={formData.address}
+                                                            onChange={(e) => this.handleInputChange(e, 'address')}
+                                                        />
+                                                    </div>
+                                                    <div className="col-lg-12 mt-4">
+                                                        <input
+                                                            type="text"  // Set type to "text"
+                                                            className="form-control"
+                                                            placeholder="Codigo Postal"
+                                                            required=""
+                                                            value={formData.postalCode}
+                                                            onChange={(e) => this.handleInputChange(e, 'postalCode')}
+                                                        />
+                                                    </div>
+
                                                         
                                                         {/* <div className="col-lg-12 mt-4">
                                                             <div id="my_icon" className="custom-control custom-checkbox">
@@ -69,7 +172,9 @@ class Registro extends Component {
                                                             </div>
                                                         </div> */}
                                                         <div className="col-lg-12 mt-4 mb-3">
-                                                            <Link to="#" className="btn btn-custom w-100">Registrar</Link>
+                                                            <button type="submit" className="btn btn-custom w-100">
+                                                                Registrar
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -99,4 +204,4 @@ const mapDispatchtoProps = dispatch => {
     };
 }
 
-export default connect(mapStatetoProps, mapDispatchtoProps)(Registro);
+export default withRouter(connect(mapStatetoProps, mapDispatchtoProps)(Registro));

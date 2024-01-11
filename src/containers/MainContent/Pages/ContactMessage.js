@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import AUX from '../../../hoc/Aux_';
 import * as actionTypes from '../../../store/action';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+
 
 class ContactMessage extends Component {
 
@@ -38,7 +40,7 @@ class ContactMessage extends Component {
                             </div>
                             <h2 class="title-contactmessage pb-4">¡Gracias por contactarnos!</h2>
                             <p class="body-text-contactmessage">Pronto recibirás un email con más información acerca de tu solicitud.</p>
-                            <Link to="#" class="button-contactmessage">Regresar</Link>
+                            <Link to="/landing.datalpine.mx" class="button-contactmessage">Regresar</Link>
                         </div>
                     </section>
                 </div>
@@ -62,4 +64,4 @@ const mapDispatchtoProps = dispatch => {
     };
 }
 
-export default connect(mapStatetoProps, mapDispatchtoProps)(ContactMessage);
+export default withRouter(connect(mapStatetoProps, mapDispatchtoProps)(ContactMessage));

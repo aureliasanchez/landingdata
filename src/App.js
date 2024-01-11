@@ -5,6 +5,7 @@ import { Route,Switch } from 'react-router-dom';
 import mainbuilder from './containers/mainbuilder/mainbuilder';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
+import ContactMessage from './containers/MainContent/Pages/ContactMessage';
 
 class App extends Component {
 
@@ -18,6 +19,8 @@ class App extends Component {
         <Layout topbar={this.props.topbar} islight={this.props.islight} loginpage={this.props.loginpage}>
           <Switch>  
             <Route path="/" component={mainbuilder} />
+            <Route path="/ContactMessage" component={ContactMessage} />
+
             
           </Switch>
         </Layout>);

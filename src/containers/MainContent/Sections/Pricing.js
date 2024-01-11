@@ -19,7 +19,7 @@ class Pricing extends Component{
                         <div className="row mt-5">
                             <div className="col-lg-4">
                             
-                            <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: 'auto'}}>
+                            <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '800px'}}>
                                 <div className="plan-name mt-4" style={{paddingBottom: '42px' }}>
                                         <h6 style={{paddingBottom: '25px', fontSize: '35px' }}>Plan Panorama</h6>
                                         <p style={{ marginBottom: '0' }}>Muestra un resumen histórico de precios, comprende la distribución y tendencias por segmento, y accede a análisis demográficos, comparativas regionales y más.</p>                                        
@@ -35,7 +35,6 @@ class Pricing extends Component{
                                         <li>Comparativa Regional</li>
                                         <li>Estacionalidad</li>                                        
                                         <li>Tendencias de Precios por Segmento</li>
-                                        <li>Índice de Precios</li>
                                     </ul> 
                                     
                                     
@@ -69,9 +68,10 @@ class Pricing extends Component{
                                         <li>Análisis detallado del mercado</li>
                                         <li>Demanda y salario</li>
                                         <li>Profesiones y Oficios</li>
+                                        <li>Suscripcion a 3 meses</li>
                                     </ul>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '65px', marginBottom: '10px' }}>Compra ahora</a>
+                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '5px', marginBottom: '10px' }}>Compra ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -100,10 +100,11 @@ class Pricing extends Component{
                                         <li>Optimización de Espacios</li>
                                         <li>Personalización total</li>
                                         <li>Incluye <strong style={{ color: '#6774DF' }}>1 sesión</strong> de consultoría mensual <strong style={{ color: '#6774DF' }}> +1 informe </strong> inmobiliario</li>
-                                        <li>Acceso a toda la plataforma y su información</li>
+                                        <li>Acceso a toda la plataforma</li>
+                                        <li>Suscripcion a 3 meses</li>
                                     </ul>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '30px', marginBottom: '10px' }}>Compra ahora</a>
+                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '0px', marginBottom: '10px' }}>Compra ahora</a>
                                     </div>
                                  </div>
                             </div>

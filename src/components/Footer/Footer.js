@@ -74,7 +74,7 @@ class Footer extends Component{
     render(){
         return(
             <AUX>
-              <section className="pt-1 bg-dark" id="contact" style={{paddingTop: '5px', paddingBottom: '0px'}}>
+              <section className="pt-1 bg-dark" id="contact" style={{paddingTop: '2px', paddingBottom: '2px'}}>
                     <div className="row mt-5 pt-5 pb-2">
                   <div className="col-md-6">
                     <div className="text-white pl-4 pr-4">
@@ -84,27 +84,27 @@ class Footer extends Component{
                   <div className="col-md-6 d-flex justify-content-end align-items-center">
                     {/* Facebook */}
                     <a href="https://www.facebook.com/profile.php?id=61552173002247" target="_blank" rel="noopener noreferrer" className="ml-2">
-                      <FaFacebookSquare size={20} color="white" />
+                      <FaFacebookSquare size={25} color="white" />
                     </a>
 
                     {/* Twitter */}
                     <a href="https://twitter.com/DatAlpine" target="_blank" rel="noopener noreferrer" className="ml-2">
-                      <FaTwitterSquare size={20} color="white" />
+                      <FaTwitterSquare size={25} color="white" />
                     </a>
 
                     {/* LinkedIn */}
                     <a href="https://www.linkedin.com/company/datalpine/" target="_blank" rel="noopener noreferrer" className="ml-2">
-                      <FaLinkedin size={20} color="white" />
+                      <FaLinkedin size={25} color="white" />
                     </a>
 
                     {/* Instagram */}
                     <a href="https://www.instagram.com/DatAlpine/?fbclid=IwAR0B-HYWqGM5of0fBiCHFVWD7Uysb-punr5kVR8JHI11qobuvOzIMdJ6w14" target="_blank" rel="noopener noreferrer" className="ml-2">
-                      <FaInstagramSquare size={20} color="white" />
+                      <FaInstagramSquare size={25} color="white" />
                     </a>
 
                     {/* TikTok */}
                     <a href="https://www.tiktok.com/@datalpine?_t=8gsoksxpqdz&_r=1" target="_blank" rel="noopener noreferrer" className="ml-2">
-                      <FaTiktok size={20} color="white" />
+                      <FaTiktok size={25} color="white" />
                     </a>
                   </div>
                 </div>          

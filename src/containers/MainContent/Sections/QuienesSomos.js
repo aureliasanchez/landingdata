@@ -7,7 +7,7 @@ class QuienesSomos extends Component {
     render() {
         return (
             <AUX>
-                <section className="section" id="quienessomos" style={{ paddingTop: '20px', paddingBottom: '80px' }}>
+                <section className="section" id="quienessomos" style={{ paddingTop: '20px', paddingBottom: '5px' }}>
 
                     <div className="container" style={{ paddingBottom: '200px' }}>
                         <div className="row vertical-content">
@@ -30,13 +30,13 @@ class QuienesSomos extends Component {
                             </div>
                         </div>
                     </div>
-
+                    {/*
                     <div className='container-quines-somos' style={{boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
                         <img className='container-img' src="images/Logo.png" style={{paddingBottom: '5px'}}/>
                         <p className='container-txt'>Tu socio en decisiones inmobiliarias</p>
                         <a href="#contact" className='btn-quines-somos'>Contáctanos</a>
                     </div>
-
+                     */}
                 </section>
             </AUX>
         );
