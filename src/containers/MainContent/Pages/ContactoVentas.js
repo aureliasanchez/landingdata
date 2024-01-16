@@ -38,6 +38,7 @@ class ContactoVentas extends Component {
         .then((response) => {
             console.log('Email sent successfully:', response);
             // TODO: Add logic for successful form submission
+            this.props.history.push('/contact_message');
         })
         .catch((error) => {
             console.error('Email sending failed:', error);

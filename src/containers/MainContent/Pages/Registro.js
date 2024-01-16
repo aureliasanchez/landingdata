@@ -67,7 +67,7 @@ class Registro extends Component {
             console.log('Form data sent successfully.');
 
             // Redirect to the registration confirmation page
-            this.props.history.push('/ContactMessage');
+            this.props.history.push('/contact_message');
         } else {
             console.error('Failed to send form data.');
         }
