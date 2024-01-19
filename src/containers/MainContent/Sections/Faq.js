@@ -18,10 +18,10 @@ class Faq extends Component{
         }; */} 
         return(
             <AUX>
-                <section className="section bg-light" id="faq" style={{paddingTop: '30px', paddingBottom: '80px'}}>
+                <section className="section bg-light" id="faq" style={{paddingTop: '30px', paddingBottom: '100px'}}>
                     <div className="container">
                         <div className="row justify-content-center">
-                            <div className="col-md-8">
+                            <div className="col-md-8 col-sm-8 col-lg-8">
                                 <div className="text-center">
                                     
                                     <h3 className="section-title pt-5">Características del software</h3>
@@ -69,7 +69,7 @@ class Faq extends Component{
                                 </div>    
                                 
                             </div>
-                            <div className="col-lg-6 faq-side ">  
+                            <div className="col-md-6 col-sm-6 col-lg-6 faq-side ">  
                                 <div className="faq pt-5">
                                     <p className="text-uppercase user-title mb-1">
                                         <FaRocket className="mr-2" /> Tecnologías Avanzadas

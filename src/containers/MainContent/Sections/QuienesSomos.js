@@ -2,16 +2,17 @@ import React, { Component } from 'react';
 import AUX from '../../../hoc/Aux_';
 import { Link } from 'react-router-dom';
 
+
 class QuienesSomos extends Component {
 
     render() {
         return (
             <AUX>
-                <section className="section" id="quienessomos" style={{ paddingTop: '20px', paddingBottom: '5px' }}>
+                <section className="section" id="quienessomos" style={{ paddingTop: '20px', paddingBottom: '10px' }}>
 
                     <div className="container" style={{ paddingBottom: '200px' }}>
                         <div className="row vertical-content">
-                            <div className="col-md-6">
+                            <div className="col-md-6 col-sm-6 col-lg-6">
                                 <div className="features-box">
                                     <div className="features-desc">
                                         <h3 className='title-quines-somos'>¿Quiénes Somos?</h3>
@@ -25,7 +26,7 @@ class QuienesSomos extends Component {
 
                                 </div>
                             </div>
-                            <div className="col-md-6 pt-4">
+                            <div className="col-md-6 col-sm-6 col-lg-6 pt-4">
                                 <img src="images/workteam.jpg" alt="" className="img-fluid rounded" />
                             </div>
                         </div>

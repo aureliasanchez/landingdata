@@ -40,7 +40,7 @@ class ContactMessage extends Component {
                             </div>
                             <h2 class="title-contactmessage pb-4">¡Gracias por contactarnos!</h2>
                             <p class="body-text-contactmessage">Pronto recibirás un email con más información acerca de tu solicitud.</p>
-                            <Link to="/landing.datalpine.mx" class="button-contactmessage">Regresar</Link>
+                            <a href="/" class="button-contactmessage">Regresar                            </a>
                         </div>
                     </section>
                 </div>

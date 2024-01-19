@@ -48,6 +48,9 @@ class Header extends Component{
                             <a href="#pricing">Planes</a>
                             </li>
                             <li className="mobile-none">
+                            <a href="https://blog.datalpine.mx/">Blog</a>
+                            </li>
+                            <li className="mobile-none">
                             <a href="#contact">Contacto</a>
                             </li>
                             <li className="mobile-none">
