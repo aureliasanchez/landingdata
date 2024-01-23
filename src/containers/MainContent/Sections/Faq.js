@@ -28,7 +28,7 @@ class Faq extends Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="row justify-content-center mt-5 price-box p-5 bg-white text-center mt-1" style={{height:650, boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
+                        <div className="row justify-content-center mt-5 price-box p-5 bg-white text-center mt-1" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)'}}>
                             <div className="col-lg-6 faq-side"> 
                                 <div className="faq pt-5">
                                     <p className="text-uppercase user-title mb-1">

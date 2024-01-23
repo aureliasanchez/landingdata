@@ -55,7 +55,7 @@ class HomeOne extends Component{
                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='JlvxDa7Sges' onClose={() => this.setState({ isOpen: false })} />
                                                
                             <div className=""> 
-                                <img src="images/macbook.png" alt="" className="img-fluid center-block home-dashboard" />
+                                <img src="images/macbooka.png" alt="" className="img-fluid center-block home-dashboard" />
                             </div>
                         </div>
                     </div>

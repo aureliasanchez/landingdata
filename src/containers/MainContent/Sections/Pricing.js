@@ -71,7 +71,7 @@ class Pricing extends Component{
                                         <li>Suscripcion a 3 meses</li>
                                     </ul>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '5px', marginBottom: '10px' }}>Compra ahora</a>
+                                        <a href="https://teseodata.recurly.com/subscribe/planhorizonte2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '5px', marginBottom: '10px' }}>suscríbete ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@ class Pricing extends Component{
                                         <li>Suscripcion a 3 meses</li>
                                     </ul>
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '0px', marginBottom: '10px' }}>Compra ahora</a>
+                                    <a href="https://teseodata.recurly.com/subscribe/planvision2023?currency=MXN" className='btn btn-custom btn-rounded' style={{ marginTop: '0px', marginBottom: '10px' }}>suscríbete ahora</a>
                                     </div>
                                  </div>
                             </div>
@@ -116,7 +116,7 @@ class Pricing extends Component{
                             </div>
 
                             <div className="col-md-6">
-                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height: '400px' }}>
+                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height:"auto"}}>
                                 <div className="plan-name mt-4">
                                 <h6 style={{paddingBottom: '10px', lineHeight:'1.2em'  }}>Factibilidad Financiera para el mercado inmobiliario</h6>
                                 </div>
@@ -138,7 +138,7 @@ class Pricing extends Component{
 
 
                             <div className="col-md-6">
-                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height: '400px' }}>
+                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height:"auto" }}>
                             <div className="plan-name mt-4">
                                 <h6 style={{paddingBottom: '10px', lineHeight:'1.2em' }}>Optimización del Producto para el mercado inmobiliario</h6>
                                 </div>

@@ -7,7 +7,7 @@ class Contact extends Component{
     render(){
         return(
             <AUX>
-                <section className="pt-1" id="contact" style={{ background: '#A9A9A9', paddingTop: '10px', paddingBottom: '1px' }}>
+                <section className="pt-1" id="contact" style={{ background: '#A9A9A9', paddingTop: '10px', paddingBottom: '50px' }}>
                     <div className="container">
                         <div className="row justify-content-center pt-5">
                             <div className="col-md-8">
@@ -30,7 +30,7 @@ class Contact extends Component{
                                         <div className="single-contact text-center text-white"> 
                                             <i className="mdi mdi-map-marker"></i>
                                             <h4>Dirección:</h4>
-                                            <p>Calle Puebla 603, colonia Colonia Cubitos, Pachuca de Soto, Hidalgo.</p>
+                                            <p>Pachuca de Soto, Hidalgo.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
