@@ -16,6 +16,7 @@
     "react": "^16.7.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.7.0",
+    "react-fab": "^1.2.0",
     "react-icons": "^4.12.0",
     "react-modal-video": "^1.2.2",
     "react-particles-js": "^2.4.2",
@@ -35,7 +36,7 @@
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "3.6.3"
   },
-  "homepage": "http://landing.datalpine.mx/",
+  "homepage": "https://datalpine.mx/home",
   "scripts": {
     "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",

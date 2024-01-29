@@ -44,8 +44,8 @@ class HomeOne extends Component{
                   <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-10 text-center text-white">
-                            <h1 className="mt-5 pt-5 home-title">Plataforma #1 líder en el mercado</h1>
-                            <p className="home-subtitle mx-auto pt-2">Transformando datos en estrategias inmobiliarias.</p>
+                            <h1 className="mt-5 pt-5 home-title">Plataforma #1 del Sector Inmobiliario</h1>
+                            <p className="home-subtitle mx-auto pt-2">Inteligencia de mercado detallada y personalizada, proporcionando análisis profundos de tendencias, precios y segmentación, esenciales para tomar decisiones informadas y estratégicas.</p>
                             <div className="mt-5">
                                 <a href="https://datalpine.mx/" className="btn btn-custom">Empieza ahora</a>
 

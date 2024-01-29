@@ -6,6 +6,8 @@ import mainbuilder from './containers/mainbuilder/mainbuilder';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import ContactMessage from './containers/MainContent/Pages/ContactMessage';
+import FloatingButton from './containers/MainContent/Sections/FloatingButton'; // Adjust the path accordingly
+
 
 class App extends Component {
 
@@ -15,16 +17,18 @@ class App extends Component {
      console.log('loginpage '+this.props.loginpage);
      console.log('islight '+this.props.islight);
 
-      layout = (
-        <Layout topbar={this.props.topbar} islight={this.props.islight} loginpage={this.props.loginpage}>
-          <Switch>  
-            <Route path="/" component={mainbuilder} />
-            <Route path="/ContactMessage" component={ContactMessage} />
+     layout = (
+      <Layout topbar={this.props.topbar} islight={this.props.islight} loginpage={this.props.loginpage}>
 
-            
-          </Switch>
-        </Layout>);
-        
+        <Switch>
+          <Route path="/" component={mainbuilder} />
+          <Route path="/ContactMessage" component={ContactMessage} />
+        </Switch>
+        <FloatingButton style={{ position: 'fixed', bottom: '20px', right: '20px' }}/> {/* Add the FloatingButton component here */}
+
+      </Layout>
+    );
+
     return (
       <div className="App">
         {layout}

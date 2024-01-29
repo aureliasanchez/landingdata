@@ -115,7 +115,7 @@ class Pricing extends Component{
                             <h2 className="section-title pt-5">Servicios Data Premium</h2>
                             </div>
 
-                            <div className="col-md-6">
+                            <div className="col-md-4">
                             <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height:"auto"}}>
                                 <div className="plan-name mt-4">
                                 <h6 style={{paddingBottom: '10px', lineHeight:'1.2em'  }}>Factibilidad Financiera para el mercado inmobiliario</h6>
@@ -137,7 +137,7 @@ class Pricing extends Component{
                             </div>
 
 
-                            <div className="col-md-6">
+                            <div className="col-md-4">
                             <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height:"auto" }}>
                             <div className="plan-name mt-4">
                                 <h6 style={{paddingBottom: '10px', lineHeight:'1.2em' }}>Optimización del Producto para el mercado inmobiliario</h6>
@@ -158,6 +158,26 @@ class Pricing extends Component{
                             </div>
                             </div>
 
+                            <div className="col-md-4">
+                            <div className="price-box px-4 pt-4 pb-2 bg-white text-left mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', height:"auto" }}>
+                            <div className="plan-name mt-4">
+                                <h6 style={{paddingBottom: '10px', lineHeight:'1.2em' }}>Explorador de propiedades</h6>
+                                </div>
+                                <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Te ofrecemos un análisis detallado de propiedades específicas para informar tus decisiones de inversión inmobiliaria.</p>                                     
+                                <ul style={{ paddingLeft: '18px' }}>
+                                <li className='pb-2'>Evaluación exhaustiva del valor y potencial de alquiler.</li>
+                                <li className='pb-2'>Análisis comparativo de mercado en propiedades similares.</li>
+                                <li className='pb-2'>Visión estratégica del mercado y análisis de riesgos.</li>
+                                <li className='pb-2'>Historial de transacciones y tendencias del mercado.</li>
+                                </ul>
+                                {/* <div className="mt-2">
+                                <Link to="#" className="text-info underline-left">Más Información</Link>
+                                </div> */}
+                                <div className="mt-2 mb-10 d-flex justify-content-center align-items-center" style={{ marginBottom: '20px' }}>
+                                <Link to="contacto_ventas" className="btn btn-custom btn-rounded" style={{ marginTop: '8px', marginBottom: '10px' }}>Contacto con ventas</Link>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </section>

@@ -19,22 +19,22 @@ class Footer extends Component{
                   </ul>
                         <ul className="text-white">
                             <li className="mobile-none">
-                            <a href="#faq">Servicios</a>
+                            <a href="#faq" style={{color: "white"}}>Servicios</a>
                             </li>
                         </ul>
                         <ul className="navigation-menu menu-right">
                           <li className="mobile-none">
-                            <a href="#quienessomos">Quiénes somos</a>
+                            <a href="#quienessomos" style={{color: "white"}}>Quiénes somos</a>
                           </li>
                         </ul>
                         <ul className="navigation-menu menu-right">
                           <li className="mobile-none">
-                            <a href="#pricing">Planes</a>
+                            <a href="#pricing"style={{color: "white"}}>Planes</a>
                           </li>
                         </ul>
                         <ul className="navigation-menu menu-right">
                         <li className="mobile-none">
-                            <a href="#contact">Contacto</a>
+                            <a href="#contact" style={{color: "white"}}>Contacto</a>
                             </li>
                         </ul>   
                     </div>
@@ -45,16 +45,16 @@ class Footer extends Component{
                   {/* Contenido de la segunda columna en la primera fila */}
                   <div id="navigation">
                   <ul>
-                  <label htmlFor="" className=""> A cerca de:</label>
+                  <label htmlFor="" className=""> Acerca de:</label>
                   </ul>
                         <ul className="navigation-menu menu-right">
                         <li className="mobile-none">
-                        <a href="https://teseodata.com/">Teseo Data Lab</a>
+                        <a href="https://teseodata.com/" style={{color: "white"}}>Teseo Data Lab</a>
                             </li>
                         </ul>
                         <ul className="navigation-menu menu-right">
                         <li className="mobile-none">
-                            <a href="https://blog.datalpine.mx/">Blog</a>
+                            <a href="https://blog.datalpine.mx/" style={{color: "white"}}>Blog</a>
                             </li>
                         </ul> 
                     </div>
@@ -95,8 +95,10 @@ class Footer extends Component{
                     </div>
                   </div>
                   <div className="col-md-6">
-                    <div className="text-white pl-4 pr-4  text-center">
-                      <p className="copyright-desc pb-0">Politica de Privacidad</p>
+                    <div className="text-white pl-4 pr-4 text-center">
+                      <p className="copyright-desc pb-0" >
+                        <a href="https://teseodata.com/politicas-de-privacidad/" style={{color: "white"}}>Politica de Privacidad</a>
+                      </p>
                     </div>
                   </div>
                 </div>          

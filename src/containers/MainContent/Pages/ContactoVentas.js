@@ -127,6 +127,7 @@ class ContactoVentas extends Component {
                                                             </option>
                                                             <option value="Factibilidad Financiera">Factibilidad Financiera</option>
                                                             <option value="Optimizacion del Producto">Optimización del producto</option>
+                                                            <option value="Explorador de Propiedades">Explorador de propiedades</option>
                                                         </select>
                                                     </div>
                                                         {/* <div className="col-lg-12 mt-4">
