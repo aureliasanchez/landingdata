@@ -20,19 +20,19 @@ class QuienesSomos extends Component {
                             <div className="col-md-6 col-sm-6 col-lg-6">
                                 <div className="features-box">
                                     <div className="features-desc" >
-                                        <h3 className='title-quines-somos' >¿Quiénes Somos?</h3>
-                                        <p className="pt-2 txt-quines-somos text-left">DatAlpine es un producto de TESEO DATA LAB, un equipo global de científicos de datos. Con más de 18 proyectos en bienes raíces y una trayectoria en México, Japón, EE. UU., Canadá, Suiza y Alemania. Expertos comprometidos en transformar datos en estrategias efectivas.</p>
-                                        <p className="pt-2 txt-quines-somos text-left">Como desarrolladores de software y expertos en análisis de datos e inteligencia artificial en la industria estamos comprometidos con proporcionar soluciones precisas y efectivas que generen resultados concretos para nuestros clientes.</p>
+                                        <h3 className='title-quines-somos' >Who are we?</h3>
+                                        <p className="pt-2 txt-quines-somos text-left">DatAlpine is a product of TESEO DATA LAB, a global team of data scientists. With more than 18 real estate projects and a track record in Mexico, Japan, USA, Canada, Switzerland and Germany. Experts committed to transforming data into effective strategies.</p>
+                                        <p className="pt-2 txt-quines-somos text-left">As software developers and experts in data analytics and artificial intelligence in the industry, we are committed to providing accurate and effective solutions that generate concrete results for our clients.</p>
                                         
-                                        <IoIosMedal style={{ marginRight: '10px' }} /> Certificaciones:
+                                        <IoIosMedal style={{ marginRight: '10px' }} /> Certifications:
                                         <p >CIRA Canadá Certificate <br /> Alberta Business Certificate</p>
-                                        <FaFlag style={{ marginRight: '10px' }} /> Con presencia en los siguientes paises:
+                                        <FaFlag style={{ marginRight: '10px' }} /> With a presence in the following countries:
                                         <div>
                                         <p>México, Colombia y Canadá</p>
                                         </div>
                                     </div>
                                     <div className="features-desc" style={{ paddingTop: '10px', }}>
-                                        <a href="https://teseodata.com/" className="btn-quines-somos2">Conoce nuestro sitio web</a>
+                                        <a href="https://teseodata.com/" className="btn-quines-somos2">Get to know our website</a>
                                     </div>
 
                                 </div>

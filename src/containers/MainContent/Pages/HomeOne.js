@@ -44,14 +44,12 @@ class HomeOne extends Component{
                   <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-10 text-center text-white">
-                            <h1 className="mt-5 pt-5 home-title">Plataforma #1 del Sector Inmobiliario</h1>
-                            <p className="home-subtitle mx-auto pt-2">Inteligencia de mercado detallada y personalizada, proporcionando análisis profundos de tendencias, precios y segmentación, esenciales para tomar decisiones informadas y estratégicas.</p>
+                            <h1 className="mt-5 pt-5 home-title">#1 Real Estate Platform</h1>
+                            <p className="home-subtitle mx-auto pt-2">Detailed and personalized market intelligence, providing in-depth analysis of trends, pricing and segmentation, essential for making informed and strategic decisions.</p>
                             <div className="mt-5">
-                                <a href="https://datalpine.mx/" className="btn btn-custom">Empieza ahora</a>
+                                <a href="https://datalpine.mx/" className="btn btn-custom">Get Started Now</a>
 
                             </div>
-                           
-                           
                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='JlvxDa7Sges' onClose={() => this.setState({ isOpen: false })} />
                                                
                             <div className=""> 

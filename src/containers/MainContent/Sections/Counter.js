@@ -9,7 +9,7 @@ class Counter extends Component{
              <section className="section bg-custom" style={{ marginTop: '-10px' }}>
              <div className="container" >
                 <div className="counter" >
-                        <p>En un mercado lleno de datos y soluciones, <br />destacamos por transformar información en estrategia</p>
+                        <p>In a market full of data and solutions, <br /> excel at transforming information into strategy</p>
                     </div>
                 </div>
            </section>

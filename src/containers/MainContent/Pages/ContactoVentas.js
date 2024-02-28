@@ -76,7 +76,7 @@ class ContactoVentas extends Component {
                                     <div className="row justify-content-center">
                                         <div className="col-lg-6">
                                             <div className="text-center">
-                                                <h2 className="" style={{ color: '#3D45C0' }}>Da el primer paso hacia el éxito en el mercado inmobiliario</h2>
+                                                <h2 className="" style={{ color: '#3D45C0' }}>Take the first step towards success in the real estate market</h2>
                                                 <p className="text-white-50 text-center">Sign Up For a new Account</p>
                                             </div>
                                             <div className="p-4 mt-4 rounded" style={{ backgroundColor: '#F7F8FC', boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)' }}>
@@ -125,9 +125,9 @@ class ContactoVentas extends Component {
                                                             <option disabled value="">
                                                                 Selecciona un plan
                                                             </option>
-                                                            <option value="Factibilidad Financiera">Factibilidad Financiera</option>
-                                                            <option value="Optimizacion del Producto">Optimización del producto</option>
-                                                            <option value="Explorador de Propiedades">Explorador de propiedades</option>
+                                                            <option value="Factibilidad Financiera">Financial Feasibility</option>
+                                                            <option value="Optimizacion del Producto">Product Optimization</option>
+                                                            <option value="Explorador de Propiedades">Property Explorer</option>
                                                         </select>
                                                     </div>
                                                         {/* <div className="col-lg-12 mt-4">
@@ -138,7 +138,7 @@ class ContactoVentas extends Component {
                                                         </div> */}
                                                         <div className="col-lg-12 mt-4 mb-3">
                                                             <button type="submit" className="btn btn-custom w-100">
-                                                                Solicitar Información
+                                                            Request Information
                                                             </button>
                                                         </div>
                                                     </div>

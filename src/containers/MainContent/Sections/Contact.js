@@ -13,7 +13,7 @@ class Contact extends Component{
                         <div className="row justify-content-center pt-5">
                             <div className="col-md-8">
                                 <div className="text-center">
-                                    <h3 className="section-title text-white pt-5">Contacto</h3>
+                                    <h3 className="section-title text-white pt-5">Contact</h3>
                                 </div>
                             </div>
                         </div>
@@ -23,21 +23,21 @@ class Contact extends Component{
                                     <div className="col-lg-4">
                                         <div className="single-contact text-center text-white"> 
                                             <i className="mdi mdi-cellphone"></i>
-                                            <h4>Teléfono:</h4>
+                                            <h4>Telephone:</h4>
                                             <p>771 330 64 07</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="single-contact text-center text-white"> 
                                             <i className="mdi mdi-map-marker"></i>
-                                            <h4>Dirección:</h4>
+                                            <h4>Address:</h4>
                                             <p>Pachuca de Soto, Hidalgo.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="single-contact text-center text-white"> 
                                             <i className="mdi mdi-email-outline"></i>
-                                            <h4>Correo Electrónico:</h4>
+                                            <h4>Email:</h4>
                                             <p>contacto@datalpine.mx</p>
                                         </div>
                                     </div>

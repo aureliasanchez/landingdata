@@ -8,7 +8,7 @@ import { withRouter } from 'react-router-dom';
 
 
 
-class Registro extends Component {
+class Demo extends Component {
 
     componentDidMount() {
         if (this.props.loginpage === false) {
@@ -58,7 +58,7 @@ class Registro extends Component {
     
             // Replace 'YOUR_EMAILJS_SERVICE_ID', 'YOUR_EMAILJS_TEMPLATE_ID', and 'YOUR_EMAILJS_USER_ID' with your actual values
             const response = await emailjs.send(
-                'service_nlgwtrr',
+                'service_4m9gojo',
                 'template_x7m5qja',
                 templateParams,
                 'Wh-J2AXXNyIZIN9xb'
@@ -185,7 +185,7 @@ class Registro extends Component {
                                                         </div> */}
                                                         <div className="col-lg-12 mt-4 mb-3">
                                                             <button type="submit" className="btn btn-custom w-100">
-                                                            Register
+                                                            Get Demo
                                                             </button>
                                                         </div>
                                                     </div>
@@ -216,4 +216,4 @@ const mapDispatchtoProps = dispatch => {
     };
 }
 
-export default withRouter(connect(mapStatetoProps, mapDispatchtoProps)(Registro));
+export default withRouter(connect(mapStatetoProps, mapDispatchtoProps)(Demo));

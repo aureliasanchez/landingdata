@@ -15,16 +15,16 @@ class Footer extends Component{
                   {/* Contenido de la segunda columna en la primera fila */}
                   <div id="navigation">
                   <ul>
-                  <label htmlFor="" className=""> Secciones:</label>
+                  <label htmlFor="" className=""> Sections:</label>
                   </ul>
                         <ul className="text-white">
                             <li className="mobile-none">
-                            <a href="#faq" style={{color: "white"}}>Servicios</a>
+                            <a href="#faq" style={{color: "white"}}>Services</a>
                             </li>
                         </ul>
                         <ul className="navigation-menu menu-right">
                           <li className="mobile-none">
-                            <a href="#quienessomos" style={{color: "white"}}>Quiénes somos</a>
+                            <a href="#quienessomos" style={{color: "white"}}>Who we are</a>
                           </li>
                         </ul>
                         <ul className="navigation-menu menu-right">
@@ -34,7 +34,7 @@ class Footer extends Component{
                         </ul>
                         <ul className="navigation-menu menu-right">
                         <li className="mobile-none">
-                            <a href="#contact" style={{color: "white"}}>Contacto</a>
+                            <a href="#contact" style={{color: "white"}}>Contact</a>
                             </li>
                         </ul>   
                     </div>
@@ -45,7 +45,7 @@ class Footer extends Component{
                   {/* Contenido de la segunda columna en la primera fila */}
                   <div id="navigation">
                   <ul>
-                  <label htmlFor="" className=""> Acerca de:</label>
+                  <label htmlFor="" className=""> About:</label>
                   </ul>
                         <ul className="navigation-menu menu-right">
                         <li className="mobile-none">
@@ -91,13 +91,13 @@ class Footer extends Component{
                 <div className="row  d-flex align-items-center justify-content-center" >
                   <div className="col-md-6">
                     <div className="text-white pl-4 pr-4  text-center">
-                      <p className="copyright-desc pb-0">2024 DatAlpine. Todos los Derechos Reservados</p>
+                      <p className="copyright-desc pb-0">2024 DatAlpine. All Rights Reserved</p>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="text-white pl-4 pr-4 text-center">
                       <p className="copyright-desc pb-0" >
-                        <a href="https://teseodata.com/politicas-de-privacidad/" style={{color: "white"}}>Politica de Privacidad</a>
+                        <a href="https://teseodata.com/politicas-de-privacidad/" style={{color: "white"}}>Privacy Policy</a>
                       </p>
                     </div>
                   </div>

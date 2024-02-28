@@ -11,7 +11,7 @@ class Client extends Component{
                         <div className="row justify-content-center">
                             <div className="col-md-8">
                                 <div className="text-center">
-                                    <h2 className="section-title pt-5">Testimonios y comentarios</h2>
+                                    <h2 className="section-title pt-5">Testimonials & Reviews</h2>
                                 </div>
                             </div>
                         </div>
@@ -19,7 +19,7 @@ class Client extends Component{
                             <div className="col-md-4">
                             <div className="testimonial-box">
                             <div className="testimonial-desc bg-light p-4">
-                                <p className="text-center text-muted"><span>"</span>DatAlpine ha transformado la forma en que evaluamos y desarrollamos proyectos. Con sus análisis detallados, hemos identificado oportunidades que antes no tomaba en cuenta. ¡Una herramienta esencial para cualquier constructor!<span>"</span></p> 
+                                <p className="text-center text-muted"><span>"</span>DatAlpine has transformed the way we evaluate and develop projects. With their in-depth analysis, we've identified opportunities that you didn't consider before. An essential tool for any builder!<span>"</span></p> 
                                 <p className="text-center mb-0 quote-icon text-custom">
                                 <img src="images/luisg.jpg" alt="Luis G." className="custom-image" style={{ width: '100px', height: '100px', borderRadius: '50%' }}/>
                                 </p>
@@ -33,7 +33,7 @@ class Client extends Component{
                             <div className="col-md-4">
                                 <div className="testimonial-box">
                                     <div className="testimonial-desc bg-light p-4">
-                                        <p className="text-center text-muted"><span>"</span>Como inversor, siempre busco tomar decisiones respaldadas por datos sólidos. Los informes me ha proporcionado insights valiosos sobre tendencias de mercado y de esta manera reconocer oportunidades de inversión.<span>"</span></p>
+                                        <p className="text-center text-muted"><span>"</span>As an investor, I'm always looking to make decisions backed by solid data. The reports have provided me with valuable insights into market trends and in this way recognize investment opportunities.<span>"</span></p>
                                         <p className="text-center mb-0 quote-icon text-custom">
                                         <img src="images/joelf.jpg" alt="Luis G." className="custom-image" style={{ width: '100px', height: '100px', borderRadius: '50%' }}/>
                                         </p>
@@ -44,7 +44,7 @@ class Client extends Component{
                             <div className="col-md-4">
                                 <div className="testimonial-box">
                                     <div className="testimonial-desc bg-light p-4">
-                                        <p className="text-center text-muted"><span>"</span>La clave para destacar en el mercado inmobiliario es comprender a fondo las necesidades de los clientes y el entorno. DatAlpine simplifica este proceso, brindándonos información precisa y actualizada.<span>"</span></p>
+                                        <p className="text-center text-muted"><span>"</span>The key to standing out in the real estate market is to thoroughly understand the needs of clients and the environment. DatAlpine simplifies this process, providing us with accurate and up-to-date information.<span>"</span></p>
                                         <p className="text-center mb-0 quote-icon text-custom">
                                         <img src="images/marias.jpg" alt="Luis G." className="custom-image" style={{ width: '100px', height: '100px', borderRadius: '50%' }}/>
                                         </p>

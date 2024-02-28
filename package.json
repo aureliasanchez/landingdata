@@ -36,7 +36,7 @@
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "3.6.3"
   },
-  "homepage": "https://datalpine.mx/home",
+  "homepage": "https://datalpine.mx/en",
   "scripts": {
     "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",
