@@ -42,20 +42,28 @@ class Header extends Component{
                             <a href="#faq">Servicios</a>
                             </li>
                             <li className="mobile-none">
-                            <a href="#quienessomos">Quiénes somos</a>
+                            <a href="#quienessomos">Who we are</a>
                             </li>
                             <li className="mobile-none">
-                            <a href="#pricing">Planes</a>
+                            <a href="#pricing">Plans</a>
                             </li>
                             <li className="mobile-none">
-                            <a href="#contact">Contacto</a>
+                            <a href="https://blog.datalpine.mx/">Blog</a>
+                            </li>
+                            <li className="mobile-none">
+                            <a href="#contact">Contact</a>
                             </li>
                             <li className="mobile-none">
                                 <div className='button-nav'>
-                                <a href="https://datalpine.mx/" target="_blank" rel="noopener" class="styled-button">
+                                <a href="https://datalpine.mx/dashboard/" target="_blank" rel="noopener" class="styled-button">
                                 Log In
                             </a>
                                 </div>
+                            </li>
+                            <li className="mobile-none">
+                                <a href="https://datalpine.mx">
+                                    <img src="datalpine.mx/en/images/BanderaMexico.png"  style={{ width: '40px', height: '40px', marginTop:  '-12px'}}/>
+                                </a>
                             </li>
                         </ul>
                     </div>

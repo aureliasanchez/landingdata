@@ -127,6 +127,7 @@ a {
 
 .home-bg-color {
     background-color: #6362bb;
+
     padding-top: 80px;
     position: relative;
 }
@@ -648,7 +649,23 @@ btm .btn-quines-somos h3 {
     }
 }
 
-
+/* Estilos para el botón flotante */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366; /* Color de WhatsApp */
+    color: #fff;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
 
 .price-box-container-service {
     width: auto; /* Establece el ancho deseado */

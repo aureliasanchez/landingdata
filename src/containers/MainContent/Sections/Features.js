@@ -7,12 +7,12 @@ class Features extends Component{
     render(){
         return(
             <AUX>
-            <section className="section" id="features" style={{paddingTop: '200px', paddingBottom: '200px'}}>
+            <section className="section" id="features" style={{paddingTop: '150px', paddingBottom: '80px'}}>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-8 text-center">
                             
-                            <h2 className="section-title pb-5" style={{fontSize: '40px'}}>¿Qué es DatAlpine?</h2>
+                            <h2 className="section-title pb-5" style={{fontSize: '40px'}}>What is DatAlpine?</h2>
 
                         </div>
                     </div>
@@ -24,9 +24,8 @@ class Features extends Component{
                             <div className="features-box">
                                 
                                 <div className="features-desc">
-                                    <h5>La evolución del análisis inmobiliario en México</h5>
-                                    <p className="pt-2">Una plataforma digital líder respaldada por modelos de datos econométricos avanzados. Descubre un nuevo nivel de claridad y precisión en la información inmobiliaria.</p>
-
+                                    <h5>The evolution of real estate analysis in Mexico</h5>
+                                    <p className="pt-2">DatAlpine, the leading real estate platform that revolutionizes smart decision-making. With an intuitive interface and backed by advanced econometric data models, we stand out for our ability to perform exhaustive market analysis, detailed research, and specific trend projections for various cities in the Mexican Republic. <br /> Whether you're looking for investment opportunities, planning construction projects, or advising real estate clients, our platform gives you a complete and up-to-date view of the real estate landscape, allowing you to anticipate changes, mitigate risks, and make strategic decisions with a high degree of certainty.</p>
                                 </div>
                             </div>
                         </div>
