@@ -18,27 +18,6 @@ class Pricing extends Component {
                         <div className="row mt-5">
                             {/* Plan Panorama */}
                             <div className="col-lg-4">
-<<<<<<< HEAD
-                                <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '800px' }}>
-                                    <div className="plan-name mt-4" style={{ paddingBottom: '42px' }}>
-                                        <h6 style={{ paddingBottom: '25px', fontSize: '35px' }}>Plan Panorama</h6>
-                                        <p style={{ marginBottom: '0' }}>Muestre una descripción general histórica de precios, comprenda la distribución y las tendencias por segmento y acceda a análisis demográficos, comparaciones regionales y más.</p>
-                                    </div>
-                                    <div className="plan-name mt-4" style={{ paddingBottom: '42px' }}>
-                                        <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>Free</span>
-                                    </div>
-                                    <ul style={{ paddingLeft: '18px', lineHeight: '2em' }}>
-                                        <li>Visión General del Mercado</li>
-                                        <li>Distribución de Propiedades por Segmento</li>
-                                        <li>Tendencias de Precios por Segmento</li>
-                                        <li>Comparación Regional</li>
-                                        <li>Estacionalidad</li>
-                                        <li>Tendencias de Precios por Segmento</li>
-                                    </ul>
-                                    <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
-                                        <Link to="registro" className="btn btn-custom btn-rounded" style={{ marginTop: '-10px', marginBottom: '10px' }}>Suscríbete ahora</Link>
-                                    </div>
-=======
                             
                             <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '800px'}}>
                                 <div className="plan-name mt-4" style={{paddingBottom: '42px' }}>
@@ -62,25 +41,11 @@ class Pricing extends Component {
                                     <div className="mt-5 mb-20 d-flex justify-content-center align-items-center" style={{ marginBottom: '50px' }}>
                                     <Link to="registro" className="btn btn-custom btn-rounded" style={{ marginTop: '8px', marginBottom: '10px' }}>Sign up now</Link>
                                 </div>
->>>>>>> 7c03ef609a52bf578ee6b77fcc1add2402abc84d
                                 </div>
                             </div>
 
                             {/* Horizon Plan */}
                             <div className="col-lg-4">
-<<<<<<< HEAD
-                                <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '800px' }}>
-                                    <div className="plan-name mt-4">
-                                        <h6 style={{paddingBottom: '20px', fontSize: '35px' }}>Horizon Plan</h6>
-                                        <p style={{ marginBottom: '0' }}>It provides an even more comprehensive set of tools, backed by verified data to make informed decisions in the real estate market.</p>
-                                    </div>
-                                    <div className="plan-name mt-4">    
-                                        <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Ideal for:</p>
-                                        <p style={{ marginBottom: '0' }}>Real Estate Agent</p>
-                                    </div>
-                                    <div className="plan-name mt-4">
-                                        <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Since:</p>
-=======
                                 <div className="price-box px-4 pt-4 bg-white mt-4 price-box-container" style={{ boxShadow: '2px 8px 8px rgba(0, 0, 0, 0.1)', borderRadius: '12px', width: 'auto', height: '800px'}}>                                    
                                     <div className="plan-name mt-4">
                                         <h6 style={{paddingBottom: '20px', fontSize: '35px' }}>Horizon Plan</h6>
@@ -93,7 +58,6 @@ class Pricing extends Component {
                                     </div>
                                     <div className="plan-name mt-4">    
                                     <p style={{ marginBottom: '0', fontWeight: 'bold' }}>Since:</p>
->>>>>>> 7c03ef609a52bf578ee6b77fcc1add2402abc84d
                                         <div style={{paddingBottom: '20px' }}>
                                             <span style={{ fontWeight: 'bold', fontSize: '40px', color: '#6774DF' }}>$899</span>
                                             <span style={{ fontSize: '20px' }}>per month</span>

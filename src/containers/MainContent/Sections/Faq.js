@@ -58,6 +58,7 @@ class Faq extends Component{
                                     <div className="faq-ans">
                                         <p className="faq-sub-title text-muted pt-2">We keep information always relevant with accurate analysis and constant updates, providing a real-time view of the dynamic real estate landscape.</p>
                                     </div>
+<<<<<<< HEAD
                                 </div>
 
                                 <div className="faq pt-5">
@@ -67,6 +68,8 @@ class Faq extends Component{
                                     <div className="faq-ans">
                                         <p className="faq-sub-title text-muted pt-2">We provide region- and property-type-specific analytics, giving you a detailed and comprehensive view for informed decision-making.</p>
                                     </div>
+=======
+>>>>>>> 7c03ef609a52bf578ee6b77fcc1add2402abc84d
                                     </div>*/}
                                 <div className="faq pt-5">
                                     <p className="text-uppercase user-title mb-1">
@@ -96,7 +99,6 @@ class Faq extends Component{
                                         <p className="faq-sub-title text-muted pt-2">We explore specific variables, such as prices, locations, and property characteristics, using advanced data models that identify hidden trends and emerging patterns to support informed strategies.</p>
                                     </div>
                                 </div>
-
                                 <div className="faq pt-5">
                                     <p className="text-uppercase user-title mb-1">
                                         <FaSearch className="icono-titulo mr-2" /> Prospecting Algorithms

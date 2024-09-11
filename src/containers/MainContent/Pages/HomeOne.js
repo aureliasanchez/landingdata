@@ -37,26 +37,6 @@ class HomeOne extends Component {
     render() {
         return (
             <AUX>
-<<<<<<< HEAD
-                <section className="home-bg-color" id="home" style={{ paddingTop: '100px' }}>
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-md-6">
-                                <h1 className="home-title" style={{ color: 'white', fontWeight: 'bold' }}>
-                                    #1 Real Estate Platform
-                                </h1>
-                                <ul className="home-subtitle mx-auto" style={{ textAlign: 'left', color: 'white' }}>
-                                    <li>Datos de Mercado: Decisiones clave con tendencias y características de las propiedades</li>
-                                    <li>Property Explorer: Descubre el valor REAL potencial, mínimo y máximo de tu propiedad</li>
-                                    <li>Al Mercado: Utiliza AI para definir el mejor mercado para tu producto</li>
-                                </ul>
-                            </div>
-                            <div className="col-md-6 d-flex flex-column justify-content-center" style={{ minHeight: '100px' }}>
-                                <div className="email-registration-container" style={{ width: '100%', textAlign: 'center' }}>
-                                    <input type="email" placeholder="Ingresa tu correo electrónico" style={{ width: '80%', borderRadius: '5px', border: '1px solid #ccc', height: '40px', padding: '0 15px' }} />
-                                    <button className="btn btn-custom" style={{ width: '80%', marginTop: '10px' }}>Regístrate</button>
-                                </div>
-=======
 
                 <section className="home-bg-color" id="home">
                   <div className="container">
@@ -72,9 +52,9 @@ class HomeOne extends Component {
                                                
                             <div className=""> 
                                 <img src="images/macbooka.png" alt="" className="img-fluid center-block home-dashboard" />
->>>>>>> 7c03ef609a52bf578ee6b77fcc1add2402abc84d
                             </div>
                         </div>
+                    </div>
                     </div>
                 </section>
                 <Features />
